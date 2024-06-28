@@ -1,60 +1,61 @@
 ---
-source-git-commit: 18cebce065f9b55259bf96d14cb50cf5bc6c8ec6
+source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '516'
-ht-degree: 2%
+source-wordcount: '494'
+ht-degree: 97%
 
 ---
-# Contribuição para a [!DNL Adobe Experience Manager] documentação do aplicativo de desktop
+# Contribuir com a documentação do
 
-Agradecemos por ter optado por contribuir com a [!DNL Adobe Experience Manager] documentação do aplicativo para desktop! Saudamos as contribuições de conteúdo de toda nossa comunidade de leitores, bem como de outros funcionários do Adobe.
+Agradecemos sua colaboração com a documentação do. A Adobe aceita contribuições de conteúdo de toda a comunidade de leitores(as) e de colegas que trabalham na Adobe.
 
-Este arquivo descreve como você pode contribuir, além de apontar as diretrizes a serem seguidas ao fazer suas contribuições.
+Esse arquivo descreve como colaborar, além de apontar as diretrizes que devem ser seguidas ao fazer suas contribuições.
 
-## Código de Conduta de Origem Aberta do Adobe
+## Código de conduta de código aberto da Adobe
 
-Este projeto adotou o [Código de Conduta de Origem Aberta do Adobe](code-of-conduct.md). Ao contribuir para a documentação [!DNL Adobe Experience Manager], você concorda em aderir a este código de conduta. Informe um comportamento inaceitável para [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Este projeto adotou o [Código de conduta de código aberto da Adobe](code-of-conduct.md). Ao contribuir com a documentação do AEM, você concorda em seguir este código de conduta. Relate comportamentos inaceitáveis ao seguinte email: [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Diretrizes para o Contribute
+## Diretrizes de contribuição
 
-Embora nos congratulemos com quaisquer contributos para melhorar a documentação [!DNL Experience Manager], solicitamos que os contributos sejam respeitados, sempre que possível, em determinadas orientações e normas. Consulte as [Diretrizes para contribuir com [!DNL Experience Manager] Documentação](guidelines.md) para obter mais informações.
+Embora a Adobe aceite contribuições para melhorar a documentação do AEM, elas devem seguir determinadas diretrizes e padrões sempre que possível. Consulte as [Diretrizes de contribuição para a documentação do AEM](guidelines.md) para obter mais informações.
 
 ## Como contribuir
 
-Queremos facilitar ao máximo a apresentação das suas contribuições. Você pode contribuir de duas formas:
+A Adobe deseja facilitar ao máximo o envio de contribuições. Você pode contribuir de duas maneiras:
 
-* [Criar um problema](#create-an-issue)
-* [Criar uma solicitação de baixa automática](#create-a-pull-request)
+* [Criação de um tópico](#create-an-issue)
+* [Criação de um pull request](#create-a-pull-request)
 
-Qual método você escolhe depende de quão confortável você está editando a documentação no GitHub.
+O método de escolha depende do quanto você se sente confortável em editar a documentação no GitHub.
 
 >[!NOTE]
 >
->As contribuições enviadas são cobertas pelos termos de uso [Adobe.](https://www.adobe.com/legal/terms.html)
+>As contribuições enviadas estão cobertas pelos [Termos de uso da Adobe.](https://www.adobe.com/br/legal/terms.html)
 
-### Criar um problema {#create-an-issue}
+### Criação de um tópico {#create-an-issue}
 
-Você tem uma sugestão, uma observação sobre os documentos atuais, ou pergunta como algo é descrito? Em seguida, crie um problema. Os problemas também são excelentes se você tiver algo para contribuir, mas não se sinta confortável em editar os documentos ou fazer uma solicitação por push.
+Você tem uma sugestão, uma observação sobre os documentos atuais ou alguma dúvida relacionada à maneira como algo está descrito? Nesse caso, crie um tópico. Tópicos também são excelentes se você tiver alguma contribuição, mas não se sente confortável em editar os documentos ou criar uma solicitação de pull.
 
-Os problemas permitem que você descreva facilmente sua ideia para melhorar os documentos e um membro da equipe de [!DNL Experience Manager] doc pode analisá-la. Basta clicar no link **Registre um problema** na parte superior do painel de navegação direito em qualquer página para criar um problema.
+Com os tópicos, você pode descrever facilmente sua ideia para aprimorar os documentos, e um membro da equipe do AEM Docs pode revisá-la. Clique em **Registrar um tópico** na parte superior do painel de navegação direito de qualquer página para criar um tópico.
 
-### Criar uma solicitação de recebimento {#create-a-pull-request}
+### Criação de um pull request {#create-a-pull-request}
 
-Se você vir um problema e souber exatamente como corrigi-lo, considere criar uma solicitação de baixa automática. As solicitações de recebimento permitem que você faça suas próprias edições na documentação, que são então revisadas por um membro da equipe de doc [!DNL Experience Manager]. Basta clicar no link **Editar esta página** na parte superior do painel de navegação direito em qualquer página para fazer as alterações sugeridas e criar a solicitação de baixa automática.
+Se você vir um problema e souber exatamente como corrigi-lo, considere a criação de um pull request. Com as solicitações de pull, é possível fazer edições na documentação. Um membro da equipe do AEM Docs analisa as edições para inclusão. Clique em **Editar esta página** na parte superior do painel de navegação direito de qualquer página para fazer as alterações sugeridas e criar a solicitação de pull.
 
-Todas as solicitações de baixa automática devem ser acompanhadas por um [contrato de licença de contribuinte ou CLA assinado.](https://opensource.adobe.com/cla.html) Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. Você só precisa enviar um Adobe CLA uma vez, portanto, se você já enviou um anteriormente, é bom ir!
+Todas as solicitações de pull devem ter um [Contrato de licença de colaborador ou CLA](https://opensource.adobe.com/cla.html) assinado. O CLA dá permissão à Adobe para redistribuir suas contribuições como parte do projeto. É necessário enviar somente um CLA da Adobe por vez. Se já tiver enviado anteriormente, você pode prosseguir.
 
-### Introdução rápida ao vídeo
+### Vídeo de introdução rápido
 
-Assista ao vídeo a seguir para obter uma rápida visão geral de como criar problemas e solicitações.
+Assista ao vídeo a seguir para obter uma visão geral rápida de como criar tópicos e pull requests.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27069)
 
-### Contribuições de funcionários do Adobe
+### Contribuições de funcionários da Adobe
 
-Se você for um funcionário do Adobe e tiver uma contribuição, solicitamos que você use a organização `AdobeDocs` no git corporativo. Você pode contribuir para esse repositório público no GitHub.com, mas as contribuições são mais fáceis de processar no acordo de recompra corporativo. Certifique-se de que qualquer informação proprietária ou não divulgada seja apenas discutida no acordo de recompra das empresas. Os funcionários do Adobe não precisam assinar o CLA.
+Caso trabalhe na Adobe e tenha uma contribuição a fazer, use a organização `AdobeDocs` no git corporativo.
 
-## Sobre a criação do Adobe GitHub e do Markdown
+A Adobe aprecia qualquer colaboração e analisa sua contribuição se ela for feita no repositório público. No entanto, as solicitações de pull de funcionários(as) da Adobe são mais fáceis de se processar e podem ser aprovadas mais rapidamente no repositório corporativo. Certifique-se de que qualquer informação proprietária seja discutida apenas no repositório corporativo.
 
-Consulte o [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) para obter mais detalhes sobre como usar a plataforma de criação do GitHub.
+## Informações adicionais
+
+Consulte o [Manual do colaborador do Adobe Docs](https://experienceleague.adobe.com/br/docs/contributor/contributor-guide/introduction) para obter mais detalhes sobre como usar a plataforma de criação do GitHub.

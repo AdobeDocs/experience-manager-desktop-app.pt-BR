@@ -2,9 +2,9 @@
 title: Práticas recomendadas do aplicativo de desktop v1.10
 description: Principais recursos e uso recomendado do [!DNL Adobe Experience Manager] aplicativo de desktop versão 1.10.
 exl-id: 5de06b33-c05c-47eb-b884-408b6f9afc94
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ## Visão geral {#overview}
 
-[!DNL Adobe Experience Manager] O aplicativo de desktop vincula sua solução de Gerenciamento de ativos digitais (DAM) ao desktop para que você possa abrir os arquivos disponíveis na interface da Web do AEM diretamente no desktop. Se você salvar um ativo do desktop, ele será carregado para AEM no local apropriado.
+[!DNL Adobe Experience Manager] O aplicativo de desktop vincula sua solução de Gerenciamento de ativos digitais (DAM) ao desktop para que você possa abrir os arquivos disponíveis na interface da Web do AEM diretamente no desktop. Se você salvou um ativo do desktop, ele será carregado para AEM no local apropriado.
 
-O aplicativo para desktop AEM elimina a probabilidade de você atualizar cópias locais incorretas ou atualizar um ativo errado no AEM. o fluxo de trabalho fácil de usar do aplicativo de desktop é ativado usando a tecnologia de compartilhamento de rede fornecida pelos sistemas operacionais de desktop.
+O aplicativo para desktop AEM elimina a chance de você atualizar cópias locais incorretas ou atualizar um ativo errado no AEM. O fluxo de trabalho fácil de usar do aplicativo de desktop é habilitado usando a tecnologia de compartilhamento de rede fornecida pelos sistemas operacionais de desktop.
 
 O aplicativo de desktop monta o repositório do AEM Assets como um compartilhamento de rede no desktop. Portanto, as pastas e os arquivos aparecem como se fossem locais. No entanto, não é recomendável realizar operações de gerenciamento de ativos digitais diretamente do desktop no compartilhamento de rede montado no Finder ou no Explorer. Em vez disso, a Adobe recomenda usar a interface do usuário da Web do AEM Assets para executar operações, como copiar ou mover um grande número de ativos.
 
 >[!NOTE]
 >
->Antes de ler este documento, você pode revisar o [Práticas recomendadas de integração de AEM e Creative Cloud](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/aem-cc-integration-best-practices.html) para obter uma visão geral de mais alto nível do tópico.
+>Antes de ler este documento, você pode revisar o [Práticas recomendadas de integração de AEM e Creative Cloud](https://experienceleague.adobe.com/br/docs/experience-manager-65/content/assets/administer/aem-cc-integration-best-practices) para obter uma visão geral de mais alto nível do tópico.
 
 ## Arquitetura de aplicativo para desktop AEM {#aem-desktop-app-architecture}
 
@@ -31,7 +31,7 @@ O aplicativo de desktop AEM usa compartilhamentos de rede WebDAV (Windows) ou SM
 
 *Figura: arquitetura do aplicativo de desktop*
 
-O armazenamento em cache adicional na gravação quando um arquivo é salvo faz com que o arquivo seja salvo localmente primeiro (para que o usuário não espere a transferência da rede). Em seguida, após um atraso predefinido (30 s), o arquivo é carregado no AEM em segundo plano e, em seguida, o ativo é carregado no AEM. O aplicativo de desktop AEM fornece uma interface para monitorar o status dos uploads de arquivos em segundo plano.
+Quando um arquivo é salvo, o cache extra na gravação garante que ele seja armazenado localmente primeiro, permitindo que o usuário evite aguardar a transferência da rede. Em seguida, após um atraso predefinido (30 s), o arquivo é carregado no AEM em segundo plano e, em seguida, o ativo é carregado no AEM. O aplicativo de desktop AEM fornece uma interface para monitorar o status dos uploads de arquivos em segundo plano.
 
 ## Uso recomendado do aplicativo de desktop AEM {#recommended-use-of-aem-desktop-app}
 
@@ -39,17 +39,17 @@ Os principais recursos do aplicativo de desktop AEM incluem:
 
 * **Erro ao abrir arquivos da interface do usuário da Web do AEM Assets no desktop**. Na interface da Web, você pode revelar ativos no desktop (no Finder, no Explorer) ou abrir um ativo usando um aplicativo de desktop.
 
-* **Check-out e check-in**. É possível fazer check-out dos ativos para edição; eles são marcados como bloqueados para o usuário no AEM Assets. Após a edição, é possível fazer check-in do ativo para desbloqueá-lo.
+* **Fazer check-out e check-in**. É possível fazer check-out do Assets para edição; eles são marcados como bloqueados para o usuário no AEM Assets. Após a edição, é possível fazer check-in do ativo para desbloqueá-lo.
 
 * **Salvar alterações em arquivos**. Qualquer alteração que você salvar no arquivo no compartilhamento de rede é carregada automaticamente no AEM e uma nova versão é criada.
 
-* **Colocar ativos vinculados em outros documentos**. Em aplicativos como o Creative Cloud ([!DNL Adobe Photoshop], [!DNL Adobe InDesign], e [!DNL Adobe Illustrator]), você pode colocar um arquivo externo como um link. Por exemplo, você pode inserir uma imagem em um documento do InDesign. Nesse caso, a montagem do compartilhamento de rede permite procurar e selecionar ativos do AEM para posicionamento. Colocar arquivos vinculados também funciona em alguns aplicativos que não sejam do Adobe, como o MS Office.
+* **Colocar ativos vinculados em outros documentos**. Em aplicativos como o Creative Cloud ([!DNL Adobe Photoshop], [!DNL Adobe InDesign], e [!DNL Adobe Illustrator]), você pode colocar um arquivo externo como um link. Por exemplo, você pode inserir uma imagem em um documento do InDesign. Nesse caso, a montagem do compartilhamento de rede permite procurar e selecionar ativos do AEM para posicionamento. Colocar arquivos vinculados também funciona em alguns aplicativos que não sejam Adobe, como o MS® Office.
 
-* **Resolução de referência em AEM**. Se ambos, os arquivos colocados e os arquivos principais com link, estiverem armazenados no AEM, ele poderá fornecer automaticamente informações do lado do servidor sobre as referências de ativos.
+* **Resolução de referência em AEM**. Se os arquivos colocados e os arquivos principais com link forem armazenados no AEM, ele poderá fornecer automaticamente informações do lado do servidor sobre as referências de ativos.
 
 * **Acessar o ativo do desktop**. No compartilhamento de rede montado, um menu contextual fornece um [!UICONTROL More Info] (visualização maior, metadados principais) e a capacidade de abrir um ativo na interface do usuário do AEM.
 
-* **Fazer upload de pastas grandes e hierárquicas em massa**. Se você usar a opção Criar > Upload de pasta na interface do AEM para fazer upload de ativos, o aplicativo de desktop AEM fará upload da hierarquia de pastas selecionada para o AEM em segundo plano. O progresso do upload pode ser monitorado com uma interface dedicada no aplicativo de desktop.
+* **Fazer upload de pastas grandes e hierárquicas em massa**. Se você usar o **Criar** > **Carregamento de pasta** opção na interface do AEM para fazer upload de ativos, o aplicativo de desktop AEM faz upload da hierarquia de pastas selecionada para AEM em segundo plano. O progresso do upload é monitorado com uma interface dedicada no aplicativo de desktop.
 
 ## Uso inapropriado do aplicativo de desktop AEM {#inappropriate-use-of-aem-desktop-app}
 
@@ -63,7 +63,7 @@ Os principais recursos do aplicativo de desktop AEM incluem:
 
 * Não use unidades de rede de aplicativos para desktop AEM para salvar ativos com frequência. Todas as operações de salvamento são transmitidas para o AEM Assets. Portanto, é impraticável executar operações de edição intensivas diretamente no repositório do AEM Assets montado. A edição de um ativo diretamente no repositório montado rastreia a linha do tempo do ativo com versões irrelevantes e impõe despesas gerais adicionais no servidor.
 
-* Não use o aplicativo de desktop AEM para migração de grandes quantidades de dados de uma instância de AEM para outra. Consulte a [Guia de migração](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html) para planejar e executar migrações de ativos. Por outro lado, o aplicativo de desktop [suporta upload em massa](use-app-v1.md#bulkupload) um grande número de ativos pela primeira vez no [!DNL Adobe Experience Manager].
+* Não use o aplicativo de desktop AEM para migração de grandes quantidades de dados de uma instância de AEM para outra. Consulte a [Guia de migração](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) para planejar e executar migrações de ativos. Por outro lado, o aplicativo de desktop [suporta upload em massa](use-app-v1.md#bulkupload) um grande número de ativos pela primeira vez no [!DNL Adobe Experience Manager].
 
 ## Recommendations para casos de uso selecionados {#recommendations-for-selected-use-cases}
 
@@ -77,7 +77,7 @@ O aplicativo de desktop AEM fornece acesso virtual a todo o repositório DAM, e 
 
    * Certas áreas não relevantes para os usuários criativos podem ser negadas para seus grupos de usuários, para removê-los de sua visualização, também no desktop.
 
-   * A maioria dos ativos no DAM é final e não se destina a alterações. Eles devem ser somente leitura para os usuários criativos.
+   * A maioria dos ativos no DAM é final e não se destina a alterações; esses ativos devem ser somente leitura para os usuários criativos.
 
    * Somente os ativos que exigem alterações ou retoque devem ser habilitados para gravação pelos usuários de criação. Algumas organizações usam Projetos AEM e as pastas que criam para hospedar ativos que ainda estão sujeitos a alterações.
 
@@ -87,7 +87,7 @@ Para procurar um arquivo que deseja abrir na área de trabalho:
 
 * Use a interface da Web do AEM Assets para localizar o ativo. A pesquisa no AEM Assets não é apenas poderosa (aspectos de pesquisa, pesquisas salvas), ela também fornece recursos adicionais para encontrar o ativo correto. Isso inclui filtros adicionais, como a capacidade de pesquisar ativos com base no status (aprovação, expiração), coleções, tarefas, notificações e compartilhamento de pastas/coleções com outros usuários/grupos.
 
-* Depois de localizar o ativo, use Ações do desktop na interface do AEM para acessar o ativo no desktop .
+* Depois de localizar o ativo, use as ações do desktop na interface do AEM para acessar o ativo no desktop.
 
 ### Atualização de ativos abertos usando o aplicativo de desktop AEM {#updating-assets-opened-using-aem-desktop-app}
 
@@ -97,7 +97,7 @@ Se um ativo armazenado no AEM precisar de uma atualização:
 
 * Para **pequenas atualizações**, como solicitações menores de retoque no processo de aprovação:
 
-   * Faça check-out do arquivo e abra-o no desktop.
+   * Confira o arquivo e abra-o na área de trabalho.
 
    * Atualize o arquivo.
 
@@ -115,24 +115,24 @@ Se um ativo armazenado no AEM precisar de uma atualização:
 
 ## Desempenho da rede {#network-performance}
 
-A boa experiência dos usuários que usam o aplicativo de desktop AEM depende muito da conectividade de rede boa e estável entre seus desktops e o servidor AEM, bem como do servidor ajustado para bom desempenho, especialmente no que diz respeito ao upload e à atualização de ativos. Essas recomendações são para as equipes de rede/TI nas organizações.
+Uma boa experiência do usuário com o aplicativo de desktop AEM depende de uma conectividade de rede estável e de um servidor bem ajustado, especialmente para carregar e atualizar ativos. Essas recomendações são para as equipes de rede/TI nas organizações.
 
 ### Considerações de rede {#network-considerations}
 
-Para entender as práticas recomendadas de configuração de rede do AEM Assets, consulte [Como migrar ativos em massa](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html) documento. Alguns dos aspectos importantes que ajudam a otimizar a experiência do aplicativo de desktop AEM para os usuários incluem:
+Para entender as práticas recomendadas de configuração de rede do AEM Assets, acesse [Como migrar ativos em massa](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) documento. Alguns dos aspectos importantes que ajudam a otimizar a experiência do aplicativo de desktop AEM para os usuários incluem:
 
-* **Usar o Dispatcher configurado corretamente**. Use o AEM Dispatcher para obter segurança adicional e verifique se ele está configurado para [Conexão de aplicativo de desktop do AEM com o AEM por trás de um dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
+* **Usar um Dispatcher configurado corretamente**. Use o Dispatcher AEM para obter segurança adicional e verifique se ele está configurado para [Conexão do aplicativo de desktop AEM com AEM por trás de uma Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
-* **Economize largura de banda**. Considere desativar a visualização de ícones no Finder no Mac - ao navegar pelo repositório montado usando o Finder. O localizador solicita que cada arquivo gere uma visualização e faz com que o aplicativo de desktop baixe e armazene o ativo em cache localmente. Observe que ao economizar largura de banda, também diminuiria a experiência do usuário para os usuários no desktop, portanto, isso deve ser feito ao trabalhar com repositórios com ativos grandes e/ou largura de banda limitada.
+* **Economize largura de banda**. Considere desativar a visualização de ícones no Finder no Mac ao navegar pelo repositório montado usando o Finder. O Localizador solicita que cada arquivo gere uma visualização e faz com que o aplicativo de desktop baixe e armazene o ativo em cache localmente. Ao mesmo tempo em que economiza largura de banda, isso também diminui a experiência do usuário para os usuários no desktop, portanto, deve ser feito ao trabalhar em repositórios com ativos grandes ou largura de banda limitada.
 
 >[!NOTE]
 >
->Para desativar as visualizações de ícones, no Finder, acesse [!UICONTROL View], selecione [!UICONTROL View Options]e desmarque a opção [!UICONTROL Show icon preview] opção. Isso só funciona para a pasta atual - para torná-la padrão, clique no link [!UICONTROL Use as default] na mesma caixa de diálogo.
+>Para desativar as visualizações de ícones, no Localizador, acesse [!UICONTROL View], selecione [!UICONTROL View Options]e desmarque a opção [!UICONTROL Show icon preview] opção. Isso só funciona para a pasta atual - para torná-la padrão, clique no link [!UICONTROL Use as default] na mesma caixa de diálogo.
 
 ### Otimizando o desempenho do servidor {#optimizing-server-performance}
 
-Para entender como o servidor AEM Assets deve ser otimizado para desempenho, consulte [Guia de ajuste de desempenho do AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html). Alguns dos aspectos importantes do desempenho do servidor para o aplicativo de desktop AEM são a otimização da configuração do fluxo de trabalho para que ele tenha bom desempenho para uploads de ativos:
+Para entender como o servidor AEM Assets deve ser otimizado para desempenho, acesse [Guia de ajuste de desempenho do AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Alguns dos aspectos importantes do desempenho do servidor para o aplicativo de desktop AEM são a otimização da configuração do fluxo de trabalho para que ele tenha bom desempenho para uploads de ativos:
 
-* **Upload de ativos mais eficiente**. Configure o [Modelo de fluxo de trabalho de Atualização de ativos AEM para ser transitório](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
+* **Upload de ativos mais eficiente**. Configure o [Modelo de fluxo de trabalho de Atualização de ativos AEM para ser transitório](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines).
 
 * **Limitar CPU do servidor para uploads**. Verifique se o parâmetro máximo de trabalhos de workflow paralelo está definido corretamente, para que os uploads não esgotem toda a CPU.
