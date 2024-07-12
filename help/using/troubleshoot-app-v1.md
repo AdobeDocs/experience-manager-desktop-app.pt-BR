@@ -1,6 +1,6 @@
 ---
 title: Solução de problemas do aplicativo de desktop versão 1.10.
-description: Solução de problemas [!DNL Adobe Experience Manager] aplicativo de desktop versão 1.10 para resolver problemas ocasionais relacionados à instalação, atualização e configuração.
+description: Solucione problemas do  [!DNL Adobe Experience Manager] aplicativo de desktop versão 1.10 para resolver problemas ocasionais relacionados à instalação, atualização e configuração.
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
 source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
 workflow-type: tm+mt
@@ -9,15 +9,15 @@ ht-degree: 0%
 
 ---
 
-# Solução de problemas [!DNL Adobe Experience Manager] aplicativo de desktop v1.x {#troubleshoot-aem-desktop-app}
+# Solucionar problemas do aplicativo de desktop [!DNL Adobe Experience Manager] v1.x {#troubleshoot-aem-desktop-app}
 
 Solucione problemas no aplicativo de desktop AEM para resolver problemas ocasionais relacionados à instalação, atualização, configuração e assim por diante.
 
-A variável [!DNL Adobe Experience Manager] O aplicativo de desktop do inclui utilitários que ajudam a mapear o repositório do AEM Assets como um compartilhamento de rede no desktop (compartilhamento SMB no macOS). O compartilhamento de rede é uma tecnologia de sistema operacional que permite que fontes remotas sejam tratadas como se fossem parte de um sistema de arquivos local de um computador. Para o aplicativo de desktop, a fonte remota de arquivo é a estrutura do repositório do gerenciamento de ativos digitais (DAM) de uma instância remota do AEM. O diagrama a seguir descreve a topologia do aplicativo de desktop:
+O aplicativo de desktop [!DNL Adobe Experience Manager] inclui utilitários que ajudam a mapear o repositório do AEM Assets como um compartilhamento de rede no desktop (compartilhamento SMB no macOS). O compartilhamento de rede é uma tecnologia de sistema operacional que permite que fontes remotas sejam tratadas como se fossem parte de um sistema de arquivos local de um computador. Para o aplicativo de desktop, a fonte remota de arquivo é a estrutura do repositório do gerenciamento de ativos digitais (DAM) de uma instância remota do AEM. O diagrama a seguir descreve a topologia do aplicativo de desktop:
 
 ![diagrama de aplicativo de desktop](assets/aem-desktopapp-architecture.png)
 
-Com essa arquitetura, o aplicativo de desktop intercepta chamadas do sistema de arquivos (abertas, fechadas, lidas, gravadas etc.) para o compartilhamento de rede montado e as traduz em chamadas HTTP AEM nativas para o servidor AEM. Os arquivos são armazenados em cache localmente. Para obter mais detalhes, consulte [Usar o aplicativo para desktop AEM v1.x](use-app-v1.md).
+Com essa arquitetura, o aplicativo de desktop intercepta chamadas do sistema de arquivos (abertas, fechadas, lidas, gravadas etc.) para o compartilhamento de rede montado e as traduz em chamadas HTTP AEM nativas para o servidor AEM. Os arquivos são armazenados em cache localmente. Para obter mais detalhes, consulte [Usar o aplicativo de desktop AEM v1.x](use-app-v1.md).
 
 ## Visão geral do componente de aplicativo para desktop AEM {#desktop-app-component-overview}
 
@@ -25,7 +25,7 @@ O aplicativo de desktop inclui os seguintes componentes:
 
 * **O aplicativo de desktop**: o aplicativo monta ou desmonta o DAM como um sistema de arquivos remoto. Ele traduz chamadas do sistema de arquivos entre o compartilhamento de rede montado localmente e a instância remota do AEM à qual se conecta.
 * **Cliente WebDAV/SMB do sistema operacional**: lida com a comunicação entre o Windows Explorer/Finder e o aplicativo de desktop. Se um arquivo for recuperado, criado, modificado, excluído, movido ou copiado, o cliente WebDAV/SMB do sistema operacional comunicará essa operação ao aplicativo de desktop. Depois de receber a comunicação, o aplicativo de desktop a traduz em chamadas de API remotas AEM nativas. Por exemplo, se um usuário criar um arquivo no diretório montado, o cliente WebDAV/SMB iniciará uma solicitação, que o aplicativo de desktop converterá em uma solicitação HTTP que cria o arquivo no DAM. O cliente WebDAV/SMB é um componente integrado do sistema operacional. Ele não é afiliado a aplicativos de desktop, AEM ou Adobe de forma alguma.
-* **Instância do Adobe Experience Manager**: fornece acesso aos ativos armazenados no repositório DAM do AEM Assets. Além disso, ele executa ações solicitadas pelo aplicativo de desktop em nome dos aplicativos de desktop locais que interagem com o compartilhamento de rede montado. A instância de AEM de destino deve executar AEM versão 6.1 ou superior. Instâncias do AEM que executam versões anteriores do AEM podem exigir pacotes de recursos extras e hot fixes instalados para se tornarem totalmente funcionais.
+* **Instância do Adobe Experience Manager**: fornece acesso aos ativos armazenados no repositório do AEM Assets DAM. Além disso, ele executa ações solicitadas pelo aplicativo de desktop em nome dos aplicativos de desktop locais que interagem com o compartilhamento de rede montado. A instância de AEM de destino deve executar AEM versão 6.1 ou superior. Instâncias do AEM que executam versões anteriores do AEM podem exigir pacotes de recursos extras e hot fixes instalados para se tornarem totalmente funcionais.
 
 ## Casos de uso pretendidos para o aplicativo de desktop AEM {#intended-use-cases-for-aem-desktop-app}
 
@@ -62,7 +62,7 @@ O AEM Desktop não é adequado para a manipulação intensiva do sistema de arqu
 
 Devido a limitações no sistema operacional, o Windows tem uma limitação de tamanho de arquivo de 4.294.967.295 bytes (aproximadamente 4,29 GB). Isso se deve a uma configuração do Registro que define o tamanho que um arquivo em um compartilhamento de rede pode ter. O valor da configuração do Registro é um DWORD com um tamanho máximo que é igual ao número referenciado.
 
-A variável [!DNL Experience Manager] o aplicativo de desktop não tem um valor de tempo limite configurável que desconecta a conexão entre o [!DNL Experience Manager] e o aplicativo de desktop após um intervalo de tempo fixo. Ao fazer upload de ativos grandes, se a conexão atingir o tempo limite após um tempo, o aplicativo tentará fazer upload do ativo algumas vezes, aumentando o tempo limite do upload. Não há uma maneira recomendada de alterar as configurações padrão de tempo limite.
+O aplicativo de desktop [!DNL Experience Manager] não tem um valor de tempo limite configurável que desconecta a conexão entre o servidor [!DNL Experience Manager] e o aplicativo de desktop após um intervalo de tempo fixo. Ao fazer upload de ativos grandes, se a conexão atingir o tempo limite após um tempo, o aplicativo tentará fazer upload do ativo algumas vezes, aumentando o tempo limite do upload. Não há uma maneira recomendada de alterar as configurações padrão de tempo limite.
 
 ## Armazenamento em cache e comunicação com AEM {#caching-and-communication-with-aem}
 
@@ -88,7 +88,7 @@ Todas as operações não são armazenadas em cache localmente. Os itens a segui
 
 ## Operações individuais {#individual-operations}
 
-Ao solucionar problemas de desempenho sub-otimizado para usuários individuais, revise primeiro [as limitações do aplicativo](#limitations). As seções subsequentes incluem sugestões para melhorar o desempenho de usuários individuais.
+Ao solucionar problemas de desempenho sub-otimizado de usuários individuais, revise primeiro [as limitações do aplicativo](#limitations). As seções subsequentes incluem sugestões para melhorar o desempenho de usuários individuais.
 
 ## Recomendações sobre largura de banda {#bandwidth-recommendations}
 
@@ -129,19 +129,19 @@ Se o desempenho do WebDAV/SMB é drasticamente reduzido quando vários usuários
 
 Você pode melhorar o desempenho do AEM habilitando fluxos de trabalho transitórios para o fluxo de trabalho Ativo de atualização DAM. A habilitação de fluxos de trabalho transitórios reduz o poder de processamento necessário para atualizar ativos quando eles são criados ou modificados no AEM.
 
-1. Navegue até `/miscadmin` na instância Experience Manager (`https://[aem_server]:[port]/miscadmin`).
-1. Na árvore de navegação, expanda **Ferramentas** > **Fluxo de trabalho** > **Modelos** > **Dam**.
-1. Clique duas vezes **Ativo de atualização DAM**.
-1. No painel de ferramentas flutuante, alterne para a guia **Página** e clique em **Propriedades da página**.
-1. Selecione o **Fluxo de trabalho transitório** e clique em **OK**.
+1. Navegue até `/miscadmin` na instância do Experience Manager (`https://[aem_server]:[port]/miscadmin`).
+1. Na árvore de navegação, expanda **Ferramentas** > **Fluxo de Trabalho** > **Modelos** > **Dam**.
+1. Clique duas vezes em **Ativo de atualização do DAM**.
+1. No painel de ferramentas flutuante, alterne para a guia **Página** e clique em **Propriedades da Página**.
+1. Marque a caixa de seleção **Fluxo de Trabalho Transitório** e clique em **OK**.
 
 ### Ajustar fila de Fluxo de trabalho transitório do Granite {#adjust-granite-transient-workflow-queue}
 
 Outro método para melhorar o desempenho do AEM é configurar o valor do máximo de trabalhos paralelos para o trabalho Fila de fluxos de trabalho transitórios do Granite. O valor recomendado é aproximadamente metade do número de CPUs disponíveis no servidor. Para ajustar o valor, execute estas etapas:
 
 1. Navegue até `/system/console/configMgr` na instância do AEM a ser configurada (por exemplo, `https://[aem_server]:[port]/system/console/configMgr`).
-1. Pesquisar por `QueueConfiguration`e clique em para abrir cada tarefa até localizar a **Fila de fluxo de trabalho transitório do Granite** e clique em **Editar**.
-1. Altere o `Maximum Parallel Jobs` e clique em **Salvar**.
+1. Procure por `QueueConfiguration` e clique em para abrir cada trabalho até localizar o trabalho **Fila de Fluxo de Trabalho Transitório do Granite** e clique em **Editar**.
+1. Altere o valor `Maximum Parallel Jobs` e clique em **Salvar**.
 
 ## Configuração do AWS {#aws-configuration}
 
@@ -149,7 +149,7 @@ Devido às limitações de largura de banda da rede, o desempenho do WebDAV/SMB 
 
 Essa medida aumenta especificamente a quantidade de largura de banda de rede disponível para o servidor. Veja alguns detalhes:
 
-* A quantidade de largura de banda de rede dedicada a uma instância do AWS aumenta à medida que o tamanho da instância aumenta. Para obter informações sobre quanta largura de banda está disponível para cada tamanho de instância, vá para a [Documentação do AWS](https://aws.amazon.com/ec2/instance-types/).
+* A quantidade de largura de banda de rede dedicada a uma instância do AWS aumenta à medida que o tamanho da instância aumenta. Para obter informações sobre a largura de banda disponível para cada tamanho de instância, vá para a [documentação do AWS](https://aws.amazon.com/ec2/instance-types/).
 * Ao solucionar problemas de um cliente grande, o Adobe configurou o tamanho da instância do AEM para c4.8xlarge, principalmente para os 4000 Mbps de largura de banda dedicada fornecidos.
 * Se houver uma Dispatcher à frente da instância de AEM, verifique se ela tem o tamanho apropriado. Se a instância do AEM fornecer 4000 Mbps, mas o Dispatcher fornecer apenas 500 Mbps, a largura de banda efetiva será de apenas 500 Mbps. Isso ocorre porque o Dispatcher cria um gargalo de rede.
 
@@ -221,9 +221,9 @@ No Windows, `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
 No Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
-No entanto, a localização pode mudar dependendo do endpoint AEM configurado do AEM Desktop. O valor é uma versão codificada do URL direcionado. Por exemplo, se o aplicativo for direcionado `http://localhost:4502`, o nome do diretório é `http%3A%2F%2Flocalhost%3A4502%2F`.
+No entanto, a localização pode mudar dependendo do endpoint AEM configurado do AEM Desktop. O valor é uma versão codificada do URL direcionado. Por exemplo, se o aplicativo for direcionado a `http://localhost:4502`, o nome do diretório será `http%3A%2F%2Flocalhost%3A4502%2F`.
 
-Para limpar o cache, exclua o &lt;encoded aem=&quot;&quot; endpoint=&quot;&quot;> diretório.
+Para limpar o cache, exclua o diretório &lt;Endpoint AEM Codificado>.
 
 >[!NOTE]
 >
@@ -264,7 +264,7 @@ Independentemente do comportamento, o arquivo permanece inalterado ao fazer chec
 
 ## Solução de problemas na movimentação de arquivos {#troubleshooting-problems-around-moving-files}
 
-A API do servidor exige que cabeçalhos adicionais, X-Destination, X-Depth e X-Overwrite, sejam passados para que as operações de movimentação e cópia funcionem. O Dispatcher não passa esses cabeçalhos por padrão, o que causa a falha dessas operações. Para obter mais informações, consulte [Conexão com o AEM por trás de uma Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+A API do servidor exige que cabeçalhos adicionais, X-Destination, X-Depth e X-Overwrite, sejam passados para que as operações de movimentação e cópia funcionem. O Dispatcher não passa esses cabeçalhos por padrão, o que causa a falha dessas operações. Para obter mais informações, consulte [Conectando-se ao AEM por trás de uma Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
 ## Solução de problemas de conexão do AEM Desktop {#troubleshooting-aem-desktop-connection-issues}
 
@@ -273,11 +273,11 @@ A API do servidor exige que cabeçalhos adicionais, X-Destination, X-Depth e X-O
 O motivo mais comum para problemas com a conexão do AEM Desktop à sua instância do AEM habilitada para SSO (SAML) é que o processo SAML não redireciona de volta para o caminho solicitado originalmente. Como alternativa, a conexão pode ser redirecionada para um host que não esteja configurado no aplicativo de desktop AEM. Execute estas etapas para verificar o processo de logon:
 
 1. Abra um navegador da Web.
-1. Na barra de endereços, especifique o URL `/content/dam.json`.
-1. Substitua o URL pela instância AEM de destino, por exemplo `https://localhost:4502/content/dam.json`.
+1. Na barra de endereços, especifique a URL `/content/dam.json`.
+1. Substitua a URL pela instância do AEM de destino, por exemplo `https://localhost:4502/content/dam.json`.
 1. Faça logon no AEM.
 1. Depois de fazer logon, verifique o endereço atual do navegador na barra de endereços. Ele deve corresponder ao URL inserido inicialmente.
-1. Verificar se tudo antes de `/content/dam.json` corresponde ao valor do AEM de destino configurado no AEM Desktop.
+1. Verifique se tudo que aparece antes de `/content/dam.json` corresponde ao valor de AEM de destino configurado no AEM Desktop.
 
 ### Problema de configuração do SSL {#ssl-configuration-issue}
 
@@ -285,7 +285,7 @@ As bibliotecas que o aplicativo de desktop AEM usa para comunicação HTTP usam 
 
 ## Uso do AEM Desktop com o Dispatcher {#using-aem-desktop-with-dispatcher}
 
-O desktop AEM funciona com implantações de AEM por trás de um Dispatcher, que é uma configuração padrão e recomendada para servidores AEM. Os despachantes de AEM na frente de ambientes de criação de AEM normalmente são configurados para ignorar o armazenamento em cache de ativos DAM. Portanto, os dispatchers não fornecem armazenamento em cache adicional do ponto de vista do AEM Desktop. Verifique se a configuração do Dispatcher está ajustada para funcionar com o AEM Desktop. Para obter detalhes adicionais, consulte [Conexão com o AEM com uma Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+O desktop AEM funciona com implantações de AEM por trás de um Dispatcher, que é uma configuração padrão e recomendada para servidores AEM. Os despachantes de AEM na frente de ambientes de criação de AEM normalmente são configurados para ignorar o armazenamento em cache de ativos DAM. Portanto, os dispatchers não fornecem armazenamento em cache adicional do ponto de vista do AEM Desktop. Verifique se a configuração do Dispatcher está ajustada para funcionar com o AEM Desktop. Para obter detalhes adicionais, consulte [Conectando ao AEM com uma Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
 ## Verificando arquivos de log {#checking-for-log-files}
 

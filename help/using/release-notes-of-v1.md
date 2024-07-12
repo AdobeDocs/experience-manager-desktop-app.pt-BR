@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager] notas de versão do aplicativo de desktop v1.10 {#aem-desktop-app-release-notes}
+# Notas de versão do aplicativo de desktop v1.10 do [!DNL Adobe Experience Manager] {#aem-desktop-app-release-notes}
 
 Para a versão v1.x do aplicativo de desktop, veja a seguir os links de download e as informações de compatibilidade do AEM.
 
@@ -18,7 +18,7 @@ Para a versão v1.x do aplicativo de desktop, veja a seguir os links de download
 | Versão | 1.10 (1.10.0.6 no Mac e 1.10.0.3 no Windows) |
 | Tipo | Versão secundária |
 | Data | 1.10.0.6 (Mac): 15 de abril de 2020; 1.10.0.3 (Win): 31 de agosto de 2018 |
-| URLs para download | [macOS X 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg); [Windows de 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe); [Windows de 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
+| URLs para download | [macOS X 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg); [Windows 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
 | Compatibilidade | AEM 6.5.x; AEM 6.4.x; AEM 6.3 SP2; AEM AEM 6.2 SP1 CFP2+; 6.1 SP2 CFP7+ |
 
 >[!NOTE]
@@ -27,7 +27,7 @@ Para a versão v1.x do aplicativo de desktop, veja a seguir os links de download
 
 ## Requisitos e pré-requisitos do sistema {#system-requirements-and-prerequisites}
 
-[!DNL Adobe Experience Manager] o aplicativo de desktop é compatível com os seguintes sistemas operacionais:
+O aplicativo de desktop [!DNL Adobe Experience Manager] é compatível com os seguintes sistemas operacionais:
 
 * macOS X 10.10 ou mais recente, com as correções de erros mais recentes.
 
@@ -35,7 +35,8 @@ Para a versão v1.x do aplicativo de desktop, veja a seguir os links de download
 
 A Adobe recomenda o uso da versão mais recente do aplicativo de desktop AEM para garantir que você esteja usando as funcionalidades mais recentes, as correções de erros mais recentes e o melhor desempenho possível.
 
-A versão do aplicativo para desktop AEM que você pretende instalar no computador local requer uma versão específica do servidor AEM/componentes adicionais do servidor (service packs, hot fixes ou pacotes de recursos). Verifique se o servidor AEM está configurado corretamente antes de se conectar a ele pela primeira vez. Se precisar de ajuda, entre em contato com o administrador do AEM.
+A versão do aplicativo para desktop AEM que você pretende instalar em seu computador local requer um servidor AEM específico
+versão/componentes adicionais do servidor (service packs, hot fixes ou pacotes de recursos). Verifique se o servidor AEM está configurado corretamente antes de se conectar a ele pela primeira vez. Se precisar de ajuda, entre em contato com o administrador do AEM.
 
 Consulte a [matriz de compatibilidade detalhada](#compatibilitymatrix) no final deste documento para avaliar os pré-requisitos da sua configuração.
 
@@ -45,17 +46,17 @@ O aplicativo para desktop AEM 1.10 tem como objetivo melhorar a experiência do 
 
 >[!NOTE]
 >
->Se você estiver usando o macOS 10.15.4 ou mais recente, use a versão 1.10.0.6 do aplicativo. Esta versão de patch está em conformidade com [Requisitos de autenticação do Apple](https://developer.apple.com/news/?id=04102019a).
+>Se você estiver usando o macOS 10.15.4 ou mais recente, use a versão 1.10.0.6 do aplicativo. Esta versão de patch está em conformidade com os [requisitos de autenticação do Apple](https://developer.apple.com/news/?id=04102019a).
 
-**Edição local / Check-out**: os uploads automáticos de alterações salvas em ativos podem ser desativados na janela de status. Dessa forma, o usuário pode continuar trabalhando nos arquivos e salvando as alterações e, quando estiverem prontos, decidir fazer upload de todas as alterações.
+**Edição local/Check-out**: os carregamentos automáticos de alterações salvas em ativos podem ser desabilitados na janela de status. Dessa forma, o usuário pode continuar trabalhando nos arquivos e salvando as alterações e, quando estiverem prontos, decidir fazer upload de todas as alterações.
 
-**Janela Status do ativo simplificado**. A janela de status foi simplificada. A variável [!UICONTROL Uploads] A guia agora mostra ativos individuais e carregamentos em pasta ou em massa. A guia anterior de uploads em massa foi removida.
+**Janela De Status Do Ativo Simplificada**. A janela de status foi simplificada. A guia [!UICONTROL Uploads] agora mostra ativos individuais e carregamentos em pasta ou em massa. A guia anterior de uploads em massa foi removida.
 
-**Ícone de aplicativo para indicar uploads em massa**. O ícone do aplicativo indica que um upload em massa está em andamento ao mostrar uma sobreposição de &quot;transferência&quot;.
+**Ícone de Aplicativo para Indicar Carregamentos em Massa**. O ícone do aplicativo indica que um upload em massa está em andamento ao mostrar uma sobreposição de &quot;transferência&quot;.
 
 **Notificações para Conflitos de Atualização**. Quando o aplicativo detecta um conflito durante uma atualização de ativo, ele exibe uma notificação, permitindo que o usuário o revise sem monitorar a janela de status. Na inicialização, o aplicativo verifica todos os conflitos, permitindo que o usuário os resolva.
 
-**Melhor tratamento das perdas de conexão**. Os uploads em massa são pausados em caso de perda de conexão e o usuário pode retomar o processo posteriormente. A [!UICONTROL Retry] A opção está disponível para tentar novamente um upload com falha de um arquivo individual.
+**Melhor Tratamento de Perdas de Conexão**. Os uploads em massa são pausados em caso de perda de conexão e o usuário pode retomar o processo posteriormente. Uma opção [!UICONTROL Retry] está disponível para tentar novamente um upload com falha de um arquivo individual.
 
 ## Instruções de instalação {#installation-instructions}
 
@@ -63,25 +64,25 @@ Para obter instruções detalhadas, consulte [Instalar e configurar o aplicativo
 
 ## Melhorias nas versões anteriores {#enhancements-in-the-previous-versions}
 
-Esta versão estende e substitui as versões anteriores da [!DNL Experience Manager] aplicativo de desktop da, que forneceu as seguintes melhorias principais:
+Esta versão estende e substitui as versões anteriores do aplicativo de desktop [!DNL Experience Manager], que forneceu os seguintes aprimoramentos principais:
 
-* **Versão 1.9 / 1.9.1**: uploads retomáveis, janela de status aprimorada, ícones de aplicativo que indicam o status do aplicativo/conexão, pré-busca de ativos vinculados para arquivos do InDesign.
+* **Versão 1.9 / 1.9.1**: carregamentos retomáveis, janela de status aprimorada, ícones de aplicativo indicando o status do aplicativo/conexão, pré-busca de ativos vinculados para arquivos InDesign.
 
-* **Versão 1.8**: melhor controle do tamanho do cache para o usuário, experiência de logon aprimorada para SAML/SSO no Windows, suporte `.pac` proxy de rede no Mac e problemas relatados pelo cliente.
+* **Versão 1.8**: melhor controle do tamanho do cache para o usuário, experiência de logon aprimorada para SAML/SSO no Windows, suporte ao proxy de rede `.pac` no Mac e problemas relatados pelo cliente.
 
 * **Versão 1.7**: melhorias na estabilidade e na lógica de cache, melhor suporte para proxy de rede e capacidade de limpar arquivos internos após a desinstalação.
 
-* **Versão 1.6**: melhorias no processo de logon para várias configurações de segurança AEM e estabilidade e desempenho do aplicativo.
+* **Versão 1.6**: melhorias no processo de logon para várias configurações de segurança do AEM e estabilidade e desempenho do aplicativo.
 
-* **Versão 1.5**: estabilidade e resiliência de aplicativos contra vários problemas de rede, melhor capacidade de suporte.
+* **Versão 1.5**: estabilidade e resiliência do aplicativo contra vários problemas de rede, melhor suporte.
 
-* **Versão 1.4**: a capacidade de fazer upload de pastas hierárquicas em segundo plano com o monitoramento do progresso.
+* **Versão 1.4**: a capacidade de carregar pastas hierárquicas em segundo plano com o monitoramento de progresso.
 
-* **Versão 1.3**: aprimoramentos de desempenho e estabilidade de acesso a arquivos e salvamento de alterações no AEM, especialmente em aplicativos de desktop Creative Cloud, como InDesign, Illustrator ou Photoshop. O objetivo era proporcionar aos usuários uma experiência mais semelhante à de um desktop local ao trabalhar com arquivos, enquanto manipulava simultaneamente operações de transferência de dados em rede em segundo plano.
+* **Versão 1.3**: aprimoramentos de desempenho e estabilidade de acesso a arquivos e salvamento de alterações no AEM, especialmente em aplicativos Creative Cloud, como InDesign, Illustrator ou Photoshop. O objetivo era proporcionar aos usuários uma experiência mais semelhante à de um desktop local ao trabalhar com arquivos, enquanto manipulava simultaneamente operações de transferência de dados em rede em segundo plano.
 
 ### Melhorias disponíveis desde o aplicativo de desktop AEM 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-[!DNL Adobe Experience Manager] A versão 1.9.1 do aplicativo de desktop do foi uma versão de patch. Ele foi projetado para solucionar os principais problemas do cliente com a finalização de ativos. E endereçar copiando arquivos de um compartilhamento de rede para um diretório local.
+A versão 1.9.1 do aplicativo de desktop do [!DNL Adobe Experience Manager] foi uma versão de patch. Ele foi projetado para solucionar os principais problemas do cliente com a finalização de ativos. E endereçar copiando arquivos de um compartilhamento de rede para um diretório local.
 
 * O Assets desmarcado por um usuário não deve estar disponível para modificação para outros usuários (CQ-4246009)
 
@@ -89,10 +90,10 @@ Esta versão estende e substitui as versões anteriores da [!DNL Experience Mana
 
 O aplicativo para desktop AEM 1.9 tem como objetivo melhorar a experiência do usuário com uploads grandes, informações sobre as operações em segundo plano e experiência otimizada ao abrir ativos com arquivos vinculados (como o InDesign).
 
-**Uploads retomáveis**
+**Carregamentos Retomáveis**
 Para uploads, especialmente em arquivos grandes, há uma opção para pausá-los/retomá-los na nova janela Status do ativo.
 
-**Janela Status do ativo aprimorada**
+**Janela de status do ativo aprimorada**
 Uma janela de Status do ativo aprimorada fornece as seguintes informações sobre os ativos.
 
 [!UICONTROL Changes]
@@ -109,9 +110,9 @@ Uma janela de Status do ativo aprimorada fornece as seguintes informações sobr
 
 * Os arquivos conflitantes são exibidos com um ícone no qual o usuário pode clicar. Clicar no ícone mostra uma caixa de diálogo com uma explicação e duas opções:
 
-   * [!UICONTROL Keep Mine] faz o upload do arquivo imediatamente no servidor.
+   * O [!UICONTROL Keep Mine] carrega imediatamente o arquivo no servidor.
 
-   * [!UICONTROL Overwrite Mine] O exclui imediatamente o arquivo local e baixa uma nova cópia do servidor.
+   * [!UICONTROL Overwrite Mine] exclui imediatamente o arquivo local e baixa uma nova cópia do servidor.
 
 [!UICONTROL Downloads]
 
@@ -123,13 +124,13 @@ Uma janela de Status do ativo aprimorada fornece as seguintes informações sobr
 
 * O rodapé mostra o número total de arquivos baixados e a taxa média de transferência.
 
-* Se um usuário optar por abrir ou editar vários arquivos no [!DNL Experience Manager Assets] Web, elas são agrupadas. Por exemplo, myasset.jpeg e mais 4 arquivos.
+* Se um usuário optar por abrir ou editar vários arquivos na interface da Web do [!DNL Experience Manager Assets], eles serão agrupados. Por exemplo, myasset.jpeg e mais 4 arquivos.
 
 * Ao baixar documentos do InDesign com ativos vinculados do AEM Assets, o aplicativo de desktop primeiro baixa todos os ativos vinculados antes de abrir o documento e indicar o status do download. Por exemplo, 5 de 24.
 
 [!UICONTROL Bulk Uploads]
 
-Fazer upload de grandes hierarquias de pastas por meio de [!UICONTROL Create] > [!UICONTROL Upload Folder] na interface da Web do AEM aciona essa caixa de diálogo. O mesmo ocorre ao copiar e selecionar &quot;Colar Assets&quot; no Finder ou Explorer no menu de contexto do aplicativo de desktop.
+O upload de grandes hierarquias de pastas via [!UICONTROL Create] > [!UICONTROL Upload Folder] na interface do usuário da Web para AEM aciona essa caixa de diálogo. O mesmo ocorre ao copiar e selecionar &quot;Colar Assets&quot; no Finder ou Explorer no menu de contexto do aplicativo de desktop.
 
 * Exibe uploads em andamento, incluindo uma barra de progresso e o nome do arquivo que está sendo transferido.
 
@@ -143,7 +144,7 @@ Fazer upload de grandes hierarquias de pastas por meio de [!UICONTROL Create] > 
 
 O ícone do aplicativo indica o estado das operações em segundo plano para fornecer uma dica visual melhor aos usuários. Por exemplo, quando o aplicativo não está conectado ao AEM, o ícone fica esmaecido. Quando há um upload ativo, ele mostra uma sobreposição de &quot;sincronização&quot; e assim por diante.
 
-**Pré-busca do Assets vinculado**
+**Pré-busca de Assets Vinculado**
 
 Para aprimorar a experiência do usuário com documentos do InDesign que contêm ativos vinculados armazenados no AEM, o aplicativo de desktop busca previamente esses arquivos vinculados no cache local. Esse fluxo ocorre antes de baixar e abrir o documento do InDesign. Dessa forma, o usuário tem os arquivos vinculados disponíveis localmente e não precisa aguardar mais ao acessar ativos no InDesign (no painel Links ).
 A busca prévia só funciona se o AEM reconhecer os links no lado do servidor. Um ativo com links reconhecidos tem uma lista de &quot;Referências&quot; listadas na visualização Propriedades do ativo do InDesign.
@@ -168,7 +169,7 @@ A versão de acompanhamento rápido do aplicativo de desktop AEM 1.8.1 adicionou
 
    * quando uma sessão de AEM expira, o usuário agora é notificado e pode clicar na notificação para fazer logon novamente (CQ-4202028).
 
-   * (Mac) Adicionar suporte para conexão com AEM por meio do uso do `.pac` configuração de proxy (CQ-4233430).
+   * (Mac) Adicione suporte para conexão com AEM por meio do uso da configuração de proxy `.pac` (CQ-4233430).
 
    * (Win) corrija problemas com a caixa de diálogo Avançado - URL de logon (CQ-4236061).
 
@@ -202,7 +203,7 @@ A versão de acompanhamento rápido do aplicativo de desktop AEM 1.8.1 adicionou
 
    * (Win) Desinstalação do limpador (CQ-4220906).
 
-   * [Windows de 32 bits] Falha do instalador ao tentar instalar o Microsoft .NET Framework v. 4.5 (CQ-4218084).
+   * O Instalador do [Windows 32bit] falha ao tentar instalar o Microsoft .NET Framework v. 4.5 (CQ-4218084).
 
    * (Mac) Script manual para remover completamente os arquivos de aplicativo de desktop (CQ-4216489).
 
@@ -212,7 +213,7 @@ A versão de acompanhamento rápido do aplicativo de desktop AEM 1.8.1 adicionou
 
 ### Melhorias disponíveis desde o aplicativo de desktop AEM 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* Documentação: nova [Práticas recomendadas para o aplicativo v1.x](/help/using/best-practices-for-v1.md) documentação.
+* Documentação: Nova documentação de [Práticas recomendadas para o aplicativo v1.x](/help/using/best-practices-for-v1.md).
 
 * Processo de logon aprimorado para AEM:
 
@@ -286,7 +287,7 @@ Esse comportamento é o mesmo para ativos no disco local e ativos em um diretór
 
 Ambos os casos são esperados e são efeitos colaterais da arquitetura de &quot;sincronização atrasada&quot; do desktop AEM.
 
-**Versão 1.5.0.x para macOS X e Windows:** Essa versão do aplicativo para desktop AEM oferece os seguintes benefícios:
+**Versão 1.5.0.x para macOS X e Windows:** esta versão do aplicativo de desktop AEM oferece os seguintes benefícios:
 
 * Maior estabilidade e resiliência contra problemas de rede.
 
@@ -347,13 +348,13 @@ Desde o macOS 10.12 (Sierra), a Apple alterou as permissões na pasta /Volumes u
 
 O ponto de montagem do aplicativo de desktop AEM foi alterado nas versões 1.4 e 1.5. No macOS, ele foi alterado para uma subpasta DAM na pasta local do usuário, compatível com usuários não administradores (CQ-104183).
 
-Como a variável `/Volumes` A pasta do não requer mais direitos administrativos. esta alteração foi revertida na 1.5.1. Essa alteração também possibilita o compartilhamento de documentos do InDesign que colocaram ativos do AEM entre usuários do macOS.
+Como a pasta `/Volumes` não requer mais direitos administrativos, esta alteração foi revertida na versão 1.5.1. Essa alteração também possibilita o compartilhamento de documentos do InDesign que colocaram ativos do AEM entre usuários do macOS.
 
 ### Alteração de protocolo (desde a v1.3) {#protocol-change-since}
 
 * macOS X:
    * O protocolo de unidade de rede local para integração de desktop do OS X foi alterado para SMB1 a partir do WebDAV.
-   * O repositório AEM montado com o aplicativo de desktop está visível como um `smb` no Finder, em vez de um drive WebDAV.
+   * O repositório AEM montado com o aplicativo de desktop está visível como uma unidade de rede `smb` no Finder, em vez de uma unidade WebDAV.
 * Windows:
    * O protocolo de unidade de rede local para integrações de desktop do Windows permanece; o AEM é montado como um compartilhamento WebDAV.
 * Para ambas as plataformas (Windows e Mac):
@@ -361,7 +362,7 @@ Como a variável `/Volumes` A pasta do não requer mais direitos administrativos
 
 >[!NOTE]
 >
->No macOS X, a alteração do protocolo de unidade de rede local de WebDAV para SMB1 resulta em um caminho local diferente para o mesmo ativo no repositório. Essa alteração pode afetar links para arquivos colocados em aplicativos do Adobe Creative Cloud por meio do comando &quot;Inserir&quot;. Consulte a [Usar o aplicativo de desktop AEM](use-app-v1.md) para obter mais informações.
+>No macOS X, a alteração do protocolo de unidade de rede local de WebDAV para SMB1 resulta em um caminho local diferente para o mesmo ativo no repositório. Essa alteração pode afetar links para arquivos colocados em aplicativos do Adobe Creative Cloud por meio do comando &quot;Inserir&quot;. Consulte o [Aplicativo de desktop AEM](use-app-v1.md) para obter mais informações.
 
 ### Manuseio de arquivos (desde 1.3) {#file-handling-since}
 
@@ -369,15 +370,15 @@ Como a variável `/Volumes` A pasta do não requer mais direitos administrativos
 * Os arquivos submetidos a check-out por outros usuários são marcados como somente leitura.
 * Os arquivos são salvos em um local de unidade de rede montado por meio do aplicativo de desktop em duas fases.
 * Na primeira fase, um arquivo é salvo localmente. Dessa forma, o usuário que salva o arquivo não precisa esperar até que ele seja totalmente transferido para o AEM e pode retomar o trabalho assim que o arquivo for salvo.
-* Na segunda fase, o aplicativo de desktop carrega um arquivo atualizado no servidor AEM após um atraso predefinido (por exemplo, trinta segundos). Esta operação ocorre em segundo plano. Use o **Mostrar Status de Sincronização de Arquivos em Segundo Plano** opção para visualizar o status da operação de upload.
+* Na segunda fase, o aplicativo de desktop carrega um arquivo atualizado no servidor AEM após um atraso predefinido (por exemplo, trinta segundos). Esta operação ocorre em segundo plano. Use a opção **Mostrar Status de Sincronização de Arquivo em Segundo Plano** para exibir o status da operação de carregamento.
 
 ## Avisos importantes {#important-notices}
 
-**Carregamento de pasta.** A Adobe recomenda que você use o novo recurso de upload de pastas para fazer upload de pastas maiores e hierárquicas para AEM. Essa abordagem é recomendada em vez de usar uma cópia/arrastar e soltar em um repositório AEM montado no nível Finder/Explorer. Ao usar o recurso de carregamento de pasta, o aplicativo de desktop se comunica diretamente com o AEM e, portanto, tem muito melhor controle sobre o processo geral.
+**Carregamento de pasta.O** Adobe recomenda que você use o novo recurso de carregamento de pastas para carregar pastas maiores e hierárquicas para AEM. Essa abordagem é recomendada em vez de usar uma cópia/arrastar e soltar em um repositório AEM montado no nível Finder/Explorer. Ao usar o recurso de carregamento de pasta, o aplicativo de desktop se comunica diretamente com o AEM e, portanto, tem muito melhor controle sobre o processo geral.
 
-**Mantenha a sessão do AEM disponível.** O aplicativo de desktop AEM depende de uma sessão aberta no servidor do AEM Assets para garantir a operação adequada. Os usuários diários devem desmontar o AEM Assets ao final do dia para fazer logoff e remontar pela manhã para garantir a funcionalidade de logon e compartilhamento de rede.
+**Manter sessão AEM disponível.** O aplicativo de desktop AEM depende de uma sessão aberta no servidor do AEM Assets para garantir a operação adequada. Os usuários diários devem desmontar o AEM Assets ao final do dia para fazer logoff e remontar pela manhã para garantir a funcionalidade de logon e compartilhamento de rede.
 
-**Desative &quot;Visualização de ícone&quot; no Localizador.** Para a navegação eficiente de pastas grandes com o Finder, especialmente com baixa conectividade de rede, verifique se o &quot;Ícone&quot; e a &quot;Visualização de ícone&quot; estão desativados. Caso contrário, o Localizador inicia o download de cada ativo em uma pasta para gerar uma pequena visualização, o que pode levar a baixo desempenho e alta utilização de largura de banda (CQ-4219779)
+**Desative a &quot;Visualização de Ícones&quot; no Localizador.** Para uma navegação eficiente de pastas grandes com o Finder, especialmente com baixa conectividade de rede, verifique se o &quot;Ícone&quot; e a &quot;Visualização de Ícone&quot; estão desativados. Caso contrário, o Localizador inicia o download de cada ativo em uma pasta para gerar uma pequena visualização, o que pode levar a baixo desempenho e alta utilização de largura de banda (CQ-4219779)
 
 * No localizador, vá para a pasta de rede compartilhada da AEM Assets
 * Clique com o botão direito do mouse no ponto de montagem do DAM
@@ -385,14 +386,14 @@ Como a variável `/Volumes` A pasta do não requer mais direitos administrativos
 * Desmarque &quot;Mostrar visualização do ícone&quot;
 * Clique em &quot;Usar como padrão&quot;
 
-**Limpe o cache ao conectar-se a um novo servidor AEM.** Se o aplicativo de desktop se conectar a outro servidor AEM com o mesmo URL, o cache não será limpo automaticamente. Limpe o cache manualmente para garantir as operações adequadas. Observe que esse processo normalmente ocorreria em testes, quando instalações de AEM podem ser substituídas enquanto são executadas no mesmo URL (CQ-4216982)
+**Limpe o cache ao conectar-se a um novo servidor AEM.** Se o aplicativo de desktop se conectar a outro servidor AEM com a mesma URL, o cache não será limpo automaticamente. Limpe o cache manualmente para garantir as operações adequadas. Observe que esse processo normalmente ocorreria em testes, quando instalações de AEM podem ser substituídas enquanto são executadas no mesmo URL (CQ-4216982)
 
-**Usar certificados SSL assinados pela CA.** O aplicativo de desktop AEM não é compatível com certificados SSL autoassinados ao se conectar ao AEM por meio de uma conexão segura HTTPS. É necessário um certificado assinado pela CA no servidor para essas conexões. (CQ-87941)
+**Usar certificados SSL assinados por CA.** O aplicativo de desktop AEM não oferece suporte a certificados SSL autoassinados ao se conectar ao AEM por meio de uma conexão segura HTTPS. É necessário um certificado assinado pela CA no servidor para essas conexões. (CQ-87941)
 
 ## Problemas conhecidos {#known-issues}
 
 * Geral:
-   * Os URLs do servidor são necessários para apontar para o servidor sem um caminho (por exemplo, `http://server`, `https://server`, `http://server:port`ou `https://server:port`). Não há suporte para caminhos e subpastas de contexto diferentes de /content/dam (CQ-89343, CQ-87272)
+   * As URLs do servidor são necessárias para apontar para o servidor sem um caminho (por exemplo, `http://server`, `https://server`, `http://server:port` ou `https://server:port`). Não há suporte para caminhos e subpastas de contexto diferentes de /content/dam (CQ-89343, CQ-87272)
 * Nomes/localização de arquivos:
    * Nomes de arquivos e pastas com caracteres reservados não são manipulados corretamente. Use nomes de arquivos e pastas que atendam aos requisitos do AEM. (CQ-93361, CQ-93308, CQ-89276, CQ-4217183)
    * Alguns aplicativos, como o Adobe Illustrator, podem criar arquivos com nomes não compatíveis com AEM. Por exemplo, adicionar `Converted` após converter um arquivo, o que impede que ele seja carregado. (CQ-4216985)
@@ -403,7 +404,7 @@ Como a variável `/Volumes` A pasta do não requer mais direitos administrativos
    * Determinados aplicativos não oferecem suporte adequado ao sinalizador somente leitura, que permite que um usuário salve um arquivo do qual outro usuário fez check-out. O arquivo modificado não é transferido até que o outro usuário faça check-in do arquivo. Ambas as modificações estão disponíveis no AEM como versões diferentes do ativo. (CQ-89551, CQ-87572, CQ-89615)
    * Os status de check-out e somente leitura são relatados de forma independente no Localizador. Essa abordagem resulta em dois ícones de bloqueio quando um usuário faz o check-out de um ativo. (CQ-89507)
 * Integração do localizador:
-   * Ao arrastar e soltar arquivos grandes, o Localizador pode atingir o tempo limite enquanto os arquivos estão sendo transferidos em segundo plano. Esse atraso resulta em uma `Error - 36`. A solução alternativa é arrastar e soltar ou abrir o ativo novamente. (CQ-4219628)
+   * Ao arrastar e soltar arquivos grandes, o Localizador pode atingir o tempo limite enquanto os arquivos estão sendo transferidos em segundo plano. Esse atraso resulta em um `Error - 36`. A solução alternativa é arrastar e soltar ou abrir o ativo novamente. (CQ-4219628)
    * O recarregamento manual da pasta nem sempre funciona. Solução alternativa: aguarde trinta segundos para que a pasta seja atualizada automaticamente. (CQ-97389)
    * Mais informações do ativo... estão limitadas a seleções de arquivos únicos. (CQ-89542, CQ-87656)
    * Abrir no AEM Assets... é limitado a seleções de arquivos e pastas únicos. (CQ-83382)
@@ -412,7 +413,7 @@ Como a variável `/Volumes` A pasta do não requer mais direitos administrativos
 * Windows:
    * Arquivos com Fluxos de Dados Alternativos (ADS) só são totalmente compatíveis com o NTFS. Ao copiar arquivos para o compartilhamento WebDAV por meio do aplicativo de desktop, uma caixa de diálogo de cuidado avisa que algumas propriedades de arquivos não podem ser transferidas para o novo local. Este aviso geralmente é correto porque as propriedades são relevantes apenas para um aplicativo específico na área de trabalho do usuário e não têm nada a ver com o conteúdo real do arquivo. (CQ-103770) (Win)
    * O usuário que está usando o aplicativo de desktop no Windows precisa ser o usuário que irá instalá-lo. (CQ-4216389) (Win)
-   * O aplicativo pode falhar ao selecionar o [!UICONTROL Retry] em um upload com falha. Essa falha pode ocorrer em determinadas circunstâncias depois de ter retomado o upload de lote quando desconectado. (CQ-4251884) (Win)
+   * O aplicativo pode falhar ao selecionar a opção [!UICONTROL Retry] em um upload com falha. Essa falha pode ocorrer em determinadas circunstâncias depois de ter retomado o upload de lote quando desconectado. (CQ-4251884) (Win)
 
 ## Recursos úteis {#helpful-resources}
 
