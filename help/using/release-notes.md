@@ -1,5 +1,5 @@
 ---
-title: "Notas de versão do aplicativo de desktop [!DNL Adobe Experience Manager]"
+title: Notas de versão do aplicativo de desktop [!DNL Adobe Experience Manager]
 description: Detalhes da versão, melhorias, novos recursos, compatibilidade e links de download para o aplicativo de desktop  [!DNL Adobe Experience Manager] .
 mini-toc-levels: 1
 feature: Desktop App,Release Information
@@ -23,7 +23,7 @@ A versão mais recente do aplicativo de desktop do inclui as seguintes correçõ
 
 As **versões [!DNL Experience Manager] com suporte** são:
 
-* [!DNL Experience Manager] como [!DNL Cloud Service]. Consulte as [notas de versão](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home).
+* [!DNL Experience Manager] como [!DNL Cloud Service]. Consulte as [notas de versão](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/release-notes/home).
 * [!DNL Experience Manager] 6.5.0 ou mais recente, no Adobe Managed Services (AMS) ou no local. Consulte as [notas de versão do service pack](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/release-notes/release-notes).
 
 O aplicativo de desktop [!DNL Adobe Experience Manager] está disponível para os **sistemas operacionais** a seguir:
