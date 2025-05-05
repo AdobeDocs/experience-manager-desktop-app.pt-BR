@@ -63,7 +63,7 @@ Os principais recursos do aplicativo de desktop AEM incluem:
 
 * Não use unidades de rede de aplicativos para desktop AEM para salvar ativos com frequência. Todas as operações de salvamento são transmitidas para o AEM Assets. Portanto, é impraticável executar operações de edição intensivas diretamente no repositório do AEM Assets montado. A edição de um ativo diretamente no repositório montado rastreia a linha do tempo do ativo com versões irrelevantes e impõe despesas gerais adicionais no servidor.
 
-* Não use o aplicativo de desktop AEM para migração de grandes quantidades de dados de uma instância de AEM para outra. Consulte o [Guia de Migração](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) para planejar e executar migrações de ativos. Por outro lado, o aplicativo de desktop [oferece suporte para o carregamento em massa](use-app-v1.md#bulkupload) de um grande número de ativos pela primeira vez em [!DNL Adobe Experience Manager].
+* Não use o aplicativo de desktop AEM para migração de grandes quantidades de dados de uma instância de AEM para outra. Consulte o [Guia de Migração](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/assets-migration-guide) para planejar e executar migrações de ativos. Por outro lado, o aplicativo de desktop [oferece suporte para o carregamento em massa](use-app-v1.md#bulkupload) de um grande número de ativos pela primeira vez em [!DNL Adobe Experience Manager].
 
 ## Recommendations para casos de uso selecionados {#recommendations-for-selected-use-cases}
 
@@ -119,7 +119,7 @@ Uma boa experiência do usuário com o aplicativo de desktop AEM depende de uma 
 
 ### Considerações de rede {#network-considerations}
 
-Para entender as práticas recomendadas de configuração de rede da AEM Assets, acesse o documento [Como migrar ativos em massa](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide). Alguns dos aspectos importantes que ajudam a otimizar a experiência do aplicativo de desktop AEM para os usuários incluem:
+Para entender as práticas recomendadas de configuração de rede da AEM Assets, acesse o documento [Como migrar ativos em massa](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/assets-migration-guide). Alguns dos aspectos importantes que ajudam a otimizar a experiência do aplicativo de desktop AEM para os usuários incluem:
 
 * **Use um Dispatcher** configurado corretamente. Use o Dispatcher AEM para obter segurança adicional e verifique se ele está configurado para conexão do aplicativo de desktop do [AEM AEM com o por trás de um Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
@@ -131,8 +131,8 @@ Para entender as práticas recomendadas de configuração de rede da AEM Assets,
 
 ### Otimizando o desempenho do servidor {#optimizing-server-performance}
 
-Para entender como o servidor AEM Assets deve ser otimizado para desempenho, vá para o [Guia de Ajuste de Desempenho do AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Alguns dos aspectos importantes do desempenho do servidor para o aplicativo de desktop AEM são a otimização da configuração do fluxo de trabalho para que ele tenha bom desempenho para uploads de ativos:
+Para entender como o servidor AEM Assets deve ser otimizado para desempenho, vá para o [Guia de Ajuste de Desempenho do AEM Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Alguns dos aspectos importantes do desempenho do servidor para o aplicativo de desktop AEM são a otimização da configuração do fluxo de trabalho para que ele tenha bom desempenho para uploads de ativos:
 
-* **Carregamento de ativos com melhor desempenho**. Configure o modelo de fluxo de trabalho [Atualização de ativos do AEM para que seja transitório](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines).
+* **Carregamento de ativos com melhor desempenho**. Configure o modelo de fluxo de trabalho [Atualização de ativos do AEM para que seja transitório](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines).
 
 * **Limitar CPU do servidor para carregamentos**. Verifique se o parâmetro máximo de trabalhos de workflow paralelo está definido corretamente, para que os uploads não esgotem toda a CPU.

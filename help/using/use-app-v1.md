@@ -156,7 +156,7 @@ Para localizar o ativo específico no sistema de arquivos local, clique em **Rev
 
 [!DNL Experience Manager Assets] permite que você faça check-out dos ativos para edição e check-in novamente depois que você concluir as alterações. Depois de fazer check-out de um ativo, somente você pode editar, anotar, publicar, mover ou excluir o ativo. Fazer o check-out de um ativo bloqueia o ativo e impede que outros usuários executem qualquer uma dessas operações. Para fazer check-out/check-in de ativos, é necessário ter acesso de gravação a eles.
 
-Há duas maneiras de fazer check-out dos ativos da interface da Web do [!DNL Experience Manager]. Para obter informações detalhadas sobre o primeiro método, consulte os [arquivos de check-in e check-out da interface do Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Siga estas etapas para os segundos métodos para fazer check-out e abrir o ativo quando o aplicativo de desktop [!DNL Experience Manager] estiver instalado.
+Há duas maneiras de fazer check-out dos ativos da interface da Web do [!DNL Experience Manager]. Para obter informações detalhadas sobre o primeiro método, consulte os [arquivos de check-in e check-out da interface do Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Siga estas etapas para os segundos métodos para fazer check-out e abrir o ativo quando o aplicativo de desktop [!DNL Experience Manager] estiver instalado.
 
 1. Abra a interface [!DNL Assets] e passe o mouse sobre uma pasta ou um ativo, para exibir as ações da área de trabalho como ações rápidas na exibição de Cartão.
 

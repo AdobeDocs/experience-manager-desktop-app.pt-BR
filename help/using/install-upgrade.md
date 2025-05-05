@@ -60,7 +60,7 @@ Para instalar o aplicativo de desktop, siga estas etapas. Desinstale qualquer ap
 
 1. Se você estiver atualizando de outra versão do aplicativo, consulte [atualizar aplicativo de desktop](#upgrade-from-previous-version).
 
-1. Pule esta etapa se estiver usando o [!DNL Experience Manager] como um [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 ou posterior, ou [!DNL Experience Manager] 6.5.0 ou posterior. Verifique se a instalação do [!DNL Experience Manager] atende aos requisitos de compatibilidade mencionados nas [notas de versão](release-notes.md). Se necessário, baixe o [pacote de compatibilidade](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) aplicável e instale-o usando o Gerenciador de Pacotes [!DNL Experience Manager] como administrador [!DNL Experience Manager]. Para instalar um pacote, consulte [Como trabalhar com pacotes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
+1. Pule esta etapa se estiver usando o [!DNL Experience Manager] como um [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 ou posterior, ou [!DNL Experience Manager] 6.5.0 ou posterior. Verifique se a instalação do [!DNL Experience Manager] atende aos requisitos de compatibilidade mencionados nas [notas de versão](release-notes.md). Se necessário, baixe o [pacote de compatibilidade](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) aplicável e instale-o usando o Gerenciador de Pacotes [!DNL Experience Manager] como administrador [!DNL Experience Manager]. Para instalar um pacote, consulte [Como trabalhar com pacotes](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
 
 1. Execute o binário do instalador e siga as instruções na tela para instalar o.
 
@@ -92,7 +92,7 @@ Para instalar o aplicativo de desktop, siga estas etapas. Desinstale qualquer ap
 
    *Figura: o aplicativo exibe o conteúdo do DAM após o logon*
 
-1. ([!DNL Experience Manager] 6.5.1 ou posterior) Se você estiver usando o aplicativo de desktop com [!DNL Experience Manager] 6.5.1 ou posterior, atualize o conector S3 ou Azure para a versão 1.10.4 ou posterior. Consulte [conector do Azure](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) ou [conector S3](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 ou posterior) Se você estiver usando o aplicativo de desktop com [!DNL Experience Manager] 6.5.1 ou posterior, atualize o conector S3 ou Azure para a versão 1.10.4 ou posterior. Consulte [conector do Azure](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) ou [conector S3](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
    Se você for um cliente do Adobe Managed Services (AMS), entre em contato com o Suporte ao cliente do Adobe.
 
