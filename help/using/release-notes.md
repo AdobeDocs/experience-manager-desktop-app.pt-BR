@@ -4,22 +4,27 @@ description: Detalhes da versão, melhorias, novos recursos, compatibilidade e l
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 19f059875a7519cf28628fd801662da7243b077b
+source-git-commit: b5dace65444ca15d09ec8648deb4c262415f40cf
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 11%
+source-wordcount: '2195'
+ht-degree: 10%
 
 ---
 
 # Notas de versão do aplicativo de desktop [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-A seguir estão informações sobre a versão mais recente do aplicativo de desktop 2.3.1. A data de lançamento é 25 de julho de 2024.
+A seguir estão informações sobre a versão mais recente do aplicativo de desktop 2.3.3. A data de lançamento é 16 de maio de 2025.
 
 A versão mais recente do aplicativo de desktop do inclui as seguintes correções de erros e aprimoramentos:
 
-* O novo instalador do Enterprise Windows instala o aplicativo em Arquivos de programas.
-* Suporte para **Autenticação Básica** durante logons AEM e SSO.
-* Número configurável de ativos permitidos durante a operação de upload.
+* Você pode fazer upload de ativos recém-criados de sua máquina local para o AEM, onde o repositório central está armazenado, e visualizá-los em seu aplicativo de desktop.
+* O recurso de atualização automática atualiza automaticamente o conteúdo em tempo real, garantindo que você sempre veja as informações mais recentes sem recarregar manualmente a página e obter a lista de ativos atualizados.
+* O recurso de fixar ou desfixar pasta permite manter pastas importantes facilmente acessíveis, fixando-as ou distorcendo a visualização ao desfixá-las quando não forem mais necessárias.
+* O recurso Renomear título permite atualizar ou modificar facilmente o título de um ativo, ajudando você a manter os nomes precisos e organizados conforme o conteúdo evolui.
+* É possível preservar o arquivo original e fazer alterações em um arquivo semelhante, duplicando arquivos em locais locais e na nuvem usando a operação duplicar arquivos.
+* O recurso de check-in e check-out permite gerenciar o acesso a arquivos bloqueando um arquivo para edição (check-out) e salvando as alterações enquanto o disponibiliza para outros (check-in).
+* Você pode visualizar, baixar e procurar coleções.
+* É possível atribuir metadados ao criar uma nova pasta.
 
 As **versões [!DNL Experience Manager] com suporte** são:
 
@@ -31,12 +36,16 @@ O aplicativo de desktop [!DNL Adobe Experience Manager] está disponível para o
 * macOS X 10.14 ou mais recente, com as correções de erros mais recentes.
 * Windows 10 com os service packs e correções de erros mais recentes.
 
-Duas versões do instalador do Windows estão disponíveis para o AEM Desktop App versão 2.3.1 e versões posteriores. O instalador básico instala o aplicativo AEM Desktop no diretório App Data local do usuário. A Adobe recomenda esse processo de instalação para a maioria de seus usuários. Um instalador Enterprise Windows também está disponível, que instala o aplicativo AEM Desktop no diretório compartilhado Arquivos de programas. Esses dois instaladores instalam a mesma versão do aplicativo de desktop AEM, sem diferenças de funcionalidade.
+Duas versões do instalador do Windows estão disponíveis para o aplicativo de desktop AEM versão 2.3.1 e versões posteriores. O instalador básico instala o aplicativo de desktop do AEM no diretório de dados do aplicativo local do usuário. A Adobe recomenda esse processo de instalação para a maioria de seus usuários. Um instalador Enterprise Windows também está disponível, o qual instala o aplicativo AEM Desktop no diretório compartilhado Arquivos de programas. Esses dois instaladores instalam a mesma versão do aplicativo de desktop do AEM, sem diferenças de funcionalidade.
 
 As **URLs de download** do sistema operacional suportado são:
 
 | Sistema operacional | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v2.3.3) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) |
+| macOS Apple Silicon (M1) (v2.3.3) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) |
+| Windows de 64 bits (v2.3.3) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) |
+| Windows Enterprise de 64 bits (v2.3.3) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.3.msi) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.3.msi) |
 | macOS (v2.3.1) | [Link de download](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-osx-x64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081954149%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=mwSX5ilZL0he2raIx8t5ecQ%2FWuizky4MpcCXX3mEN38%3D&amp;reserved=0) | [Link de download](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-osx-x64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081981239%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=LJH3OCFq7yRykN4wU8HN9%2FBXC%2BjfXLJH4QizeFZfRHE%3D&amp;reserved=0) |
 | macOS Apple Silicon (M1) (v2.3.1) | [Link de download](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-osx-arm64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081965822%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=2YENn0tDduiucogClt6aBZHDOE6dbzBdigq8VQawIO0%3D&amp;reserved=0) | [Link de download](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-osx-arm64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081986151%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=jCepldg4dMej0%2BrK2mUonXwqsWL8ksE8%2BLMSgsH9qTA%3D&amp;reserved=0) |
 | Windows de 64 bits (v2.3.1) | [Link de download](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.exe&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081970892%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=sRn2UWW%2Bi7SMEvSO74ZGGvJ40vHh1KhLc7zAfKc37Es%3D&amp;reserved=0) | [Link de download](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.exe&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081991004%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=aQWZtEK%2F3cWX8n8Au%2FwZ5Zd9xPVo5phvk%2FuF%2Be0HRrE%3D&amp;reserved=0) |
@@ -86,6 +95,12 @@ O recurso é compatível com as versões do aplicativo acima para o [!DNL Adobe 
 ## Novos recursos, melhorias e correções de erros {#what-is-new}
 
 Para conhecer os detalhes, consulte [Novidades na v2.0](introduction.md#whats-new-v2).
+
+**Atualizações no aplicativo v2.3.1**
+
+* O novo instalador do Enterprise Windows instala o aplicativo em Arquivos de programas.
+* Suporte para **Autenticação Básica** durante logons AEM e SSO.
+* Número configurável de ativos permitidos durante a operação de upload
 
 **Atualizações no aplicativo v2.3.0**
 
@@ -159,13 +174,13 @@ O erro corrigido nesta versão é:
 
 O erro corrigido nesta versão é:
 
-* Correção do problema de logon para usuários do aplicativo no Windows que tentam acessar o repositório DAM no [!DNL Adobe Experience Manager] 6.5.5.0.
+* Correção do problema de logon para usuários do aplicativo no Windows que tentam acessar o repositório DAM em [!DNL Adobe Experience Manager] 6.5.5.0.
 
 **Atualizações no aplicativo v2.0.2**
 
 As correções de erros e atualizações são:
 
-* A configuração de aceleração de upload agora está disponível para aumentar o desempenho do upload. Quando essa configuração é ativada, o aplicativo carrega mais rapidamente usando mais threads de CPU locais e consome mais recursos.
+* A configuração de aceleração de upload agora está disponível para aumentar o desempenho do upload. Quando essa configuração é ativada, o aplicativo é carregado mais rapidamente usando mais threads locais do CPU e consome mais recursos.
 
 * O ativo é carregado quando os nomes de arquivo ou caminhos que contêm determinados caracteres GB18030 são fixos. <!-- CQ-4283494 -->
 
@@ -209,7 +224,7 @@ Se você estiver atualizando de um aplicativo de desktop [!DNL Experience Manage
 
 * O compartilhamento de rede local, mostrado quando você usa a ação [!UICONTROL Reveal File], mostra somente os arquivos (e pastas) que estão disponíveis localmente. O [!UICONTROL Reveal File] e o [!UICONTROL Reveal Folder] baixam previamente os ativos para ajudar a obter os ativos certos exibidos no compartilhamento de rede local.
 
-* O compartilhamento de rede local SMB (Mac) / WebDAV (Win) é usado quando um aplicativo do Adobe Creative Cloud lê os arquivos de ativos vinculados/colocados em um arquivo nativo do aplicativo Creative Cloud.
+* O compartilhamento de rede local SMB (Mac) / WebDAV (Win) é usado quando um aplicativo do Adobe Creative Cloud lê os arquivos de ativos vinculados/colocados em um arquivo nativo do aplicativo do Creative Cloud.
 
 O diagrama a seguir ilustra o fluxo de ativos e arquivos da nuvem para o sistema de arquivos local e o oposto, conforme iniciado pelas ações do usuário.
 

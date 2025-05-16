@@ -1,12 +1,12 @@
 ---
-title: Usar o aplicativo de desktop  [!DNL Experience Manager]
+title: 'Usar o aplicativo de desktop  [!DNL Experience Manager] '
 description: Use o aplicativo de desktop  [!DNL Adobe Experience Manager]  para trabalhar com  [!DNL Adobe Experience Manager] ativos do DAM diretamente da área de trabalho Win ou Mac e usar em outros aplicativos.
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: ba980c1a1bad4a9627fc28ac7f6619b644fb1f04
+source-git-commit: fb11b41020a4c2b2c40e8adcde822c65a7fe8985
 workflow-type: tm+mt
-source-wordcount: '4060'
+source-wordcount: '4734'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ As principais tarefas que você executa usando o aplicativo de desktop [!DNL Ado
 
 ![Fluxos de trabalho e tarefas que você pode realizar usando o aplicativo de desktop [!DNL Experience Manager]](assets/aem_desktop_app_usecases_v2.png "Fluxos de trabalho e tarefas que você pode realizar usando o  [!DNL Adobe Experience Manager] aplicativo de desktop")
 
-Baixar [este](assets/aem_desktop_app_usecases_print.pdf) arquivo PDF pronto para impressão.
+<!--Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.-->
 
 ## Como o aplicativo de desktop funciona {#how-app-works2}
 
@@ -43,19 +43,21 @@ Antes de começar a usar o aplicativo, [entenda como o aplicativo funciona](rele
 
 * **[!UICONTROL Check-out]**: Se você está editando um arquivo ou pretende editar um arquivo, alterne o status para check-out. Ele adiciona um ícone de bloqueio no ativo no aplicativo e na interface da Web do [!DNL Experience Manager]. O ícone de bloqueio indica a outros usuários que eles devem evitar a edição simultânea do mesmo ativo, pois isso resulta em um conflito de edição.
 
-* **[!UICONTROL Check-in]**: marque o ativo como seguro para outros usuários editarem sem causar um conflito de edição. Ao fazer upload das alterações, o ícone de bloqueio é removido automaticamente. Alterar o status de check-in também remove o ícone de bloqueio, embora o Adobe recomende que você evite fazer check-in manualmente sem fazer upload das alterações. Se você descartar as alterações, alterne o check-in manualmente.
+* **[!UICONTROL Check-in]**: marque o ativo como seguro para outros usuários editarem sem causar um conflito de edição. Ao fazer upload das alterações, o ícone de bloqueio é removido automaticamente. Alterar o status de check-in também remove o ícone de bloqueio, embora a Adobe recomende que você evite fazer check-in manualmente sem fazer upload das alterações. Se você descartar as alterações, alterne o check-in manualmente.
 
 * Ação **[!UICONTROL Open]**: basta abrir o ativo para visualizá-lo no aplicativo nativo. A Adobe recomenda que você evite editar o ativo usando esta ação. O motivo é porque ele não faz check-out do ativo. Enquanto isso, outros usuários podem fazer edições que geram conflitos de edição.
+
+* Ação **[!UICONTROL Open with]**: o recurso &quot;Abrir com&quot; permite que você abra um arquivo com um aplicativo específico diferente do padrão. Isso é útil para escolher um programa preferido, acessar arquivos em diferentes formatos, solucionar problemas com o aplicativo padrão ou trabalhar com vários programas. Ela oferece flexibilidade, permitindo que você substitua temporariamente o aplicativo padrão sem alterar as configurações permanentemente.
+
+* Ação **[!UICONTROL Open In Web]**: para exibir o ativo na interface da Web [!DNL Experience Manager], abra-o na Web. Você pode iniciar mais fluxos de trabalho a partir da interface [!DNL Experience Manager], como atualizar metadados ou a descoberta de ativos.
 
 * Ação **[!UICONTROL Edit]**: use a ação para modificar a imagem. Clicar em [!UICONTROL Edit] faz check-out do ativo e adiciona um ícone de bloqueio no ativo. Depois de clicar em Editar, se você não quiser editar o ativo, clique em [!UICONTROL Toggle check-in]. Para excluir, renomear ou mover ativos na hierarquia de pastas do DAM [!DNL Experience Manager], use as ações da interface da Web [!DNL Experience Manager] e não a ação de edição.
 
 * Ação do **[!UICONTROL Download]**: baixe o ativo no computador local. É possível baixar os ativos agora e editar depois; trabalhar offline e fazer upload das alterações posteriormente. Os Assets são baixados em uma pasta de cache no sistema de arquivos.
 
-* Ação **[!UICONTROL Reveal File]** ou **[!UICONTROL Reveal Folder]**: enquanto os ativos são baixados para uma pasta de cache local, o aplicativo imita uma unidade de rede local. Ele fornece um caminho local para cada ativo. Para conhecer esse caminho, use a opção de revelação apropriada no aplicativo. É necessária uma ação de revelar para colocar ativos no aplicativo Creative Cloud. Consulte [colocar ativos](using.md#place-assets-in-native-documents).
+* Ação **[!UICONTROL Reveal File]** ou **[!UICONTROL Reveal Folder]**: enquanto os ativos são baixados para uma pasta de cache local, o aplicativo imita uma unidade de rede local. Ele fornece um caminho local para cada ativo. Para conhecer esse caminho, use a opção de revelação apropriada no aplicativo. É necessária uma ação de revelar para colocar ativos no aplicativo do Creative Cloud. Consulte [colocar ativos](using.md#place-assets-in-native-documents).
 
-* Ação **[!UICONTROL Open In Web]**: para exibir o ativo na interface da Web [!DNL Experience Manager], abra-o na Web. Você pode iniciar mais fluxos de trabalho a partir da interface [!DNL Experience Manager], como atualizar metadados ou a descoberta de ativos.
-
-* Ação **[!UICONTROL Delete]**: excluir o ativo do repositório DAM [!DNL Experience Manager]. A ação exclui a cópia original do ativo no servidor Experience Manager. Se quiser descartar apenas as modificações feitas no ativo local, consulte [descartar alterações](using.md#edit-assets-upload-updated-assets).
+* Ação **[!UICONTROL Delete]**: excluir o ativo do repositório DAM [!DNL Experience Manager]. A ação exclui a cópia original do ativo no servidor do Experience Manager. Se quiser descartar apenas as modificações feitas no ativo local, consulte [descartar alterações](using.md#edit-assets-upload-updated-assets).
 
 * **[!UICONTROL Upload Changes]**: o aplicativo de desktop carrega o ativo atualizado apenas quando você carrega explicitamente para o servidor [!DNL Experience Manager]. Ao salvar suas edições, as alterações são salvas somente em seu computador local. Ao fazer upload, o ativo é automaticamente registrado e o ícone de bloqueio é removido. Consulte [editar ativos](using.md#edit-assets-upload-updated-assets).
 
@@ -71,6 +73,28 @@ A partir da interface de usuário do [!DNL Assets] em um navegador, você pode e
    ![Selecione Mostrar Ações da Área de Trabalho para o Assets para habilitar ações da área de trabalho](assets/enable_desktop_actions.png)
 
    *Figura: selecione [!UICONTROL Show Desktop Actions For Assets] para habilitar as Ações da Área de Trabalho.*
+
+## Exibir ativos {#view-assets}
+
+O aplicativo de desktop do AEM permite exibir ativos em quatro visualizações diferentes:
+
+* **[!UICONTROL Show Assets]:** Permite que você exiba todos os ativos.
+* **[!UICONTROL Show Collections]:** Permite que você veja todas as coleções criadas no aplicativo AEM nativo. Ver mais [coleções](#collections-desktop-app).
+* **[!UICONTROL Edited Locally]:** Permite mostrar todos os ativos modificados localmente. Nesta visualização, é possível adicionar e fazer upload de vários ativos.
+* **[!UICONTROL Asset transfers]:** Permite que você visualize todos os ativos transferidos do aplicativo nativo para o local ou vice-versa.
+* **[!UICONTROL Pinned items]:** Permite que você exiba todos os itens fixados.
+
+Para escolher entre várias exibições de ativos no aplicativo AEM Desktop, execute as seguintes etapas:
+
+1. Abra o aplicativo de desktop do AEM.
+
+1. Acesse o menu suspenso Exibir no canto superior direito. Escolha uma entre as exibições disponíveis.
+
+   ![fixar ou desfixar a pasta](assets/view-pinned-assets.png)
+
+### Exibir pastas e arquivos recém-adicionados {#view-newly-added-files-folders}
+
+Você pode fazer upload de ativos recém-criados da máquina local para o AEM, onde o repositório central está armazenado. Para exibir localmente esses ativos recém-criados, vá para o menu suspenso **[!UICONTROL View]** e selecione **[!UICONTROL Show Assets]** para exibir todas as atualizações com sua linha do tempo e títulos, ou selecione **[!UICONTROL Edited Locally]**. Ambas as opções mostram explicitamente os ativos editados localmente.
 
 ## Procurar, pesquisar e visualizar ativos {#browse-search-preview-assets}
 
@@ -95,11 +119,59 @@ Você pode navegar, procurar e visualizar os ativos disponíveis no repositório
 >
 >O aplicativo exibe os ativos correspondendo aos critérios de pesquisa em vários campos de metadados e não apenas o título do ativo ou o nome do arquivo.
 
+## Gerenciamento de ativos {#assets-management}
+
+O gerenciamento de ativos envolve a organização, manutenção e otimização de ativos digitais para simplificar fluxos de trabalho. Inclui tarefas como duplicar e renomear arquivos, fixar ou desfixar pastas para acesso rápido e visualizar ativos em vários layouts. Isso ajuda a melhorar a eficiência, simplificar o rastreamento de ativos e garantir uma fácil recuperação e organização de ativos digitais em todas as plataformas.
+
+### Arquivos duplicados {#duplicate-files}
+
+Quando quiser preservar um arquivo original e fazer alterações no arquivo semelhante, você poderá duplicar arquivos em diferentes locais (local e nuvem) simultaneamente. Isso pode ser feito por meio da operação de arquivos duplicados nos ativos.
+
+Para duplicar arquivos no aplicativo de desktop do AEM, siga as etapas abaixo:
+
+1. Navegue até uma pasta e selecione o ativo que deseja duplicar.
+
+   ![Arquivos duplicados](assets/more-options.png)
+
+1. Clique no ícone **[!UICONTROL More actions]** ![Mais ações](assets/do-not-localize/more2_da2.png) e selecione a ação ![ícone duplicado](assets/do-not-localize/duplicate.svg) **[!UICONTROL Duplicate File]**.
+
+1. O arquivo duplicado é criado com um nome de arquivo e conteúdo idênticos.
+
+### Renomear título de um ativo {#rename-asset-title}
+
+Para renomear o título de um ativo, execute as etapas abaixo:
+
+1. Navegue pelo ativo que deseja renomear.
+
+1. Clique no ícone **[!UICONTROL More actions]** ![Mais ações](assets/do-not-localize/more2_da2.png) e selecione **[!UICONTROL Rename]** para adicionar o título desejado de um ativo.
+
+<!--1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more2_da2.png) and select **[!UICONTROL open in web]** to open the asset in its native application.
+
+1. Go to asset details. Under [!UICONTROL Basic] tab, go to title and enter the text.-->
+
+### Fixar ou Desfixar pasta {#pin-unpin-folder}
+
+Para obter acesso rápido, você pode fixar ou desfixar uma pasta executando as etapas abaixo:
+
+1. Navegue pelo ativo que deseja fixar ou desfixar.
+
+1. Clique em **[!UICONTROL More actions]** ![ícone de mais ações](assets/do-not-localize/more2_da2.png) e selecione [!UICONTROL pin] para fixar o ativo ou a pasta. Como alternativa, clique em [!UICONTROL unpin] para desafixá-lo.
+
+   ![fixar ou desfixar a pasta](assets/pin-unpin.png)
+
+### Atualização automática {#auto-refresh}
+
+O recurso de atualização automática atualiza automaticamente o conteúdo em tempo real, garantindo que você sempre veja as informações mais recentes sem recarregar manualmente a página. Execute as etapas abaixo para atualizar ativos automaticamente e obter a lista de ativos atualizados:
+
+1. Abra o aplicativo de desktop do AEM.
+
+1. Clique em ![ícone de atualização](assets/do-not-localize/refresh.png) na barra de menus para obter as atualizações.
+
 ## Baixar ativos {#download-assets}
 
 Você pode baixar os ativos no sistema de arquivos local. O aplicativo busca os ativos do servidor [!DNL Experience Manager] e salva a mesma cópia no sistema de arquivos local.
 
-Clique no ![ícone de mais opções](assets/do-not-localize/more2_da2.png) para obter opções e clique no ![ícone de download](assets/do-not-localize/download_cloud_da2.png) para baixar.
+Clique no **[!UICONTROL More actions]** ![ícone de mais opções](assets/do-not-localize/more2_da2.png) para opções e clique no ![ícone de download](assets/do-not-localize/download_cloud_da2.png) para baixar.
 
 ![Opção de download para um ativo](assets/download_option_da2.png "Opção de download para um ativo")
 
@@ -128,13 +200,49 @@ Clique em **[!UICONTROL Open]** no menu de ativos. O ativo é baixado localmente
 
 Para abrir a pasta de download local de um ativo, clique no ícone ![Mais ações](assets/do-not-localize/more2_da2.png) e clique na ação ![Revelar ícone](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]**.
 
+## Coleções {#collections-desktop-app}
+
+O Aplicativo de Desktop do AEM permite [exibir](#view-collections-desktop-app), [baixar](#download-collections-desktop-app) e procurar coleções criadas no aplicativo [!DNL Adobe Experience Manager Assets].
+
+### Exibir coleções {#view-collections-desktop-app}
+
+Execute as seguintes etapas para exibir coleções no Aplicativo de desktop:
+
+1. Abra o aplicativo de desktop do AEM e vá para [exibir ativos](#view-assets).
+
+1. Selecione **[!UICONTROL Show Collections]**. As coleções disponíveis no aplicativo nativo são mostradas.
+
+   ![Aplicativo de Área de Trabalho de Coleções](assets/collections-desktop-app.png)
+
+### Baixar coleções {#download-collections-desktop-app}
+
+Execute as seguintes etapas para baixar coleções no Aplicativo de desktop:
+
+1. Siga as etapas 1 e 2 conforme mostrado em [exibir Coleções](#view-collections-desktop-app).
+
+1. Vá para mais ações ![Ícone Mais ações](assets/do-not-localize/more2_da2.png) na coleção que você deseja baixar.
+
+1. Clique em **[!UICONTROL Download]** para baixar a coleção específica.
+
+## Criar pasta com esquema de metadados {#create-folder-with-metadata-schema}
+
+Usando o aplicativo de desktop do AEM, você pode atribuir metadados ao criar uma nova pasta. Para fazer isso, execute as seguintes etapas:
+
+1. Vá para o ícone de criar diretório ![Ícone Adicionar pasta](assets/do-not-localize/add-folder.svg). A tela **[!UICONTROL Create Directory]** é exibida.
+
+1. Adicione os seguintes detalhes:
+   * **[!UICONTROL Name]** da pasta.
+   * **[!UICONTROL Folder Metadata Schema]** para escolher a hierarquia de metadados da pasta ou escolha **[!UICONTROL none]** se não quiser relacionar nenhum metadado a ela.
+
+1. Clique em **[!UICONTROL OK]** para continuar.
+
 ## Usar ou colocar ativos em documentos nativos {#place-assets-in-native-documents}
 
 Em alguns casos, ao colocar um ativo em um documento nativo, você acessa um arquivo no Windows Explorer ou no Mac Finder. Para acessar o local do sistema de arquivos do arquivo baixado localmente, use a opção ![Ícone de Revelar](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]**.
 
 ![Ação Revelar arquivo para um ativo](assets/revealfile_action_da2.png "Ação Revelar arquivo para um ativo")
 
-Clique em **[!UICONTROL Reveal File]** ou **[!UICONTROL Reveal Folder]** em uma pasta para abrir o Windows Explorer ou o Mac Finder com o arquivo ou pasta pré-selecionado no computador local. Como exemplo, a opção é útil para colocar os arquivos [!DNL Experience Manager] nos aplicativos nativos que oferecem suporte à colocação ou vinculação de arquivos locais. Para ver como colocar arquivos no Adobe InDesign, consulte [Inserção de gráficos](https://helpx.adobe.com/br/indesign/using/placing-graphics.html).
+Clique em **[!UICONTROL Reveal File]** ou **[!UICONTROL Reveal Folder]** em uma pasta para abrir o Windows Explorer ou o Mac Finder com o arquivo ou pasta pré-selecionado no computador local. Como exemplo, a opção é útil para colocar os arquivos [!DNL Experience Manager] nos aplicativos nativos que oferecem suporte à colocação ou vinculação de arquivos locais. Para ver como colocar arquivos no Adobe InDesign, consulte [Inserção de gráficos](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 
 A ação **[!UICONTROL Reveal File]** abre um compartilhamento de rede local. Ele exibe somente os ativos que estão disponíveis localmente. Ou seja, exibe ativos que foram revelados, baixados ou abertos/editados usando o aplicativo. O compartilhamento de rede local não carrega nenhuma alteração em [!DNL Experience Manager]. Para carregar as alterações, use explicitamente as ações **[!UICONTROL Upload Changes]** ou **[!UICONTROL Upload]** no aplicativo.
 
@@ -157,7 +265,7 @@ Use **[!UICONTROL Toggle Check-out]** para bloquear o ativo e evitar conflitos c
 * Você começou a editar um ativo sem fazer o check-out dele primeiro (digamos apenas abrindo-o).
 * Você pretende começar a editar um ativo em breve e não deseja que outros editem.
 
-Quando terminar de fazer as edições, o aplicativo exibirá o status **[!UICONTROL Edited Locally]** dos ativos alterados. Todas as alterações salvas nos ativos são somente locais até você carregar as alterações em [!DNL Experience Manager]. Para carregar um indivíduo ou alguns ativos individualmente, clique em **[!UICONTROL Upload Changes]** nas opções de um ativo. Uma versão do ativo é criada em [!DNL Experience Manager]. Usando a interface da Web de [!DNL Assets], você pode ver o histórico de ativos na [exibição da Linha do Tempo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/using/activity-stream).
+Quando terminar de fazer as edições, o aplicativo exibirá o status **[!UICONTROL Edited Locally]** dos ativos alterados. Todas as alterações salvas nos ativos são somente locais até você carregar as alterações em [!DNL Experience Manager]. Para carregar um indivíduo ou alguns ativos individualmente, clique em **[!UICONTROL Upload Changes]** nas opções de um ativo. Uma versão do ativo é criada em [!DNL Experience Manager]. Usando a interface da Web de [!DNL Assets], você pode ver o histórico de ativos na [exibição da Linha do Tempo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream).
 
 ![Opção Carregar alterações no aplicativo](assets/upload_changes_single1_da2.png "Opção Carregar alterações no aplicativo")
 
@@ -191,6 +299,9 @@ Você pode controlar a simultaneidade de carregamento (aceleração) na configur
 >[!NOTE]
 >
 >A lista de transferência não é persistente e não estará disponível se você sair do aplicativo e reabri-la.
+
+<!--### Upload local file to AEM {#upload-local-file-to-aem}-->
+
 
 ### Gerenciar caracteres especiais nos nomes de ativos {#special-characters-in-filename}
 
@@ -291,13 +402,13 @@ O aplicativo fornece um modo de exibição, chamado **[!UICONTROL Edited locally
 
 Usuários ou organizações, como fotógrafos ou agências de criação, podem criar vários ativos locais durante atividades como sessões de fotos, retoque ou seleção em um conjunto maior. Essas tarefas geralmente são realizadas fora de [!DNL Experience Manager]. Eles podem carregar essas pastas locais grandes para [!DNL Assets] diretamente do aplicativo de desktop. As hierarquias de pastas são preservadas e todas as subpastas aninhadas e os ativos incluídos são carregados. Os ativos carregados também ficam disponíveis imediatamente para outros usuários do mesmo servidor para consumo. Os Assets são carregados em segundo plano, portanto, a operação não é vinculada a uma sessão do navegador da Web.
 
-![Carregar várias pastas locais em massa da área de trabalho para [!DNL Experience Manager]](assets/upload_local_folders_da2.png "Carregar várias pastas locais em massa da área de trabalho para o Experience Manager")
+![Carregar várias pastas locais em massa da área de trabalho para o [!DNL Experience Manager]](assets/upload_local_folders_da2.png "Carregar várias pastas locais em massa da área de trabalho para a Experience Manager")
 
 Após o carregamento, se as alterações esperadas não forem refletidas no aplicativo, clique no ícone de atualização ![Ícone de atualização](assets/do-not-localize/refresh.png).
 
 >[!NOTE]
 >
->Não use a funcionalidade de carregamento para migrar ativos em duas implantações do [!DNL Experience Manager]. Em vez disso, consulte o [guia de migração](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>Não use a funcionalidade de carregamento para migrar ativos em duas implantações do [!DNL Experience Manager]. Em vez disso, consulte o [guia de migração](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ### Lista de ativos transferidos {#list-of-transferred-assets}
 
@@ -356,7 +467,7 @@ Se um ativo que você está editando localmente também for atualizado no servid
 
 Quando você usa o aplicativo de desktop [!DNL Experience Manager] para abrir arquivos com ativos vinculados, os ativos são pré-baixados e aparecem colocados nos aplicativos nativos. Para que esse fluxo de trabalho funcione, seu aplicativo nativo deve oferecer suporte à colocação de links para ativos locais e o [!DNL Experience Manager] deve oferecer suporte à resolução desses links nos arquivos binários para referências do lado do servidor.
 
-O aplicativo de desktop do [!DNL Experience Manager] é compatível com esse fluxo de trabalho com alguns aplicativos de desktop e formatos de arquivo selecionados da Adobe Creative Cloud - Adobe InDesign, Adobe Illustrator e Adobe Photoshop. O fluxo de trabalho permite trabalhar com eficiência com os arquivos de Creative Cloud compatíveis. Se o usuário A adicionar ativos a um arquivo de InDesign e fizer o check-in dele em [!DNL Experience Manager], o usuário B poderá ver os ativos no arquivo mesmo que eles não façam parte dele. Os ativos são baixados localmente no computador do usuário B.
+O aplicativo de desktop do [!DNL Experience Manager] é compatível com esse fluxo de trabalho com alguns aplicativos de desktop e formatos de arquivo selecionados da Adobe Creative Cloud - Adobe InDesign, Adobe Illustrator e Adobe Photoshop. O fluxo de trabalho permite trabalhar com eficiência com os arquivos Creative Cloud compatíveis. Se o usuário A adicionar ativos a um arquivo do InDesign e fizer o check-in dele em [!DNL Experience Manager], o usuário B poderá ver os ativos no arquivo mesmo que eles não façam parte dele. Os ativos são baixados localmente no computador do usuário B.
 
 >[!NOTE]
 >
@@ -364,12 +475,12 @@ O aplicativo de desktop do [!DNL Experience Manager] é compatível com esse flu
 
 Para saber as limitações desse fluxo de trabalho, consulte os [requisitos do sistema e as versões com suporte](release-notes.md).
 
-Para experimentar esse fluxo de trabalho com um ativo de imagem e um InDesign, siga estas etapas:
+Para experimentar esse fluxo de trabalho com um ativo de imagem e o InDesign, siga estas etapas:
 
-1. Mantenha-se à mão com um arquivo INDD com ativos colocados em [!DNL Experience Manager]. Para saber como criar esse arquivo INDD, consulte [Inserção de Gráficos](https://helpx.adobe.com/br/indesign/using/placing-graphics.html).
+1. Mantenha-se à mão com um arquivo INDD com ativos colocados em [!DNL Experience Manager]. Para saber como criar esse arquivo INDD, consulte [Inserção de Gráficos](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 1. No aplicativo de desktop, **[!UICONTROL Edit]** o arquivo INDD com os ativos colocados em [!DNL Experience Manager].
 1. O aplicativo baixa o arquivo InDesign e os ativos vinculados. Quando o InDesign abre o documento, os links são resolvidos, os ativos são baixados e os ativos são exibidos no documento do InDesign.
-1. Para inserir um novo gráfico no arquivo de InDesign, use a ação **[!UICONTROL Reveal File]** no ativo. A ação baixa o ativo localmente e abre o local de compartilhamento de rede local no Windows Explorer ou no Mac Finder.
+1. Para inserir um novo gráfico no arquivo InDesign, use a ação **[!UICONTROL Reveal File]** no ativo. A ação baixa o ativo localmente e abre o local de compartilhamento de rede local no Windows Explorer ou no Mac Finder.
 1. Inserir o ativo revelado no documento do InDesign. Isso criará um link no documento.
 1. Depois de concluir suas edições no documento do InDesign, salve-o e carregue-o para [!DNL Experience Manager] usando o aplicativo de desktop.
 
