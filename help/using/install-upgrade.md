@@ -3,9 +3,9 @@ title: Instalar e configurar o aplicativo de desktop
 description: Instale e configure o aplicativo de desktop  [!DNL Adobe Experience Manager]  para funcionar com  [!DNL Adobe Experience Manager Assets]  servidores e baixe os ativos no sistema de arquivos local.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
+source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Para usar o aplicativo de desktop [!DNL Experience Manager]:
 
 * Baixe e instale o aplicativo. Consulte [instalar aplicativo de desktop](#install-v2) abaixo.
 
-* Teste a conexão usando alguns ativos. Consulte [como procurar e pesquisar ativos](using.md#browse-search-preview-assets).
+* Teste a conexão usando alguns ativos. Consulte [como procurar e pesquisar ativos](search.md#browse-search-preview-assets).
 
 ## Requisitos do sistema, pré-requisitos e links de download {#tech-specs-v2}
 
@@ -52,7 +52,7 @@ Para atualizar de uma versão anterior do aplicativo, siga estas instruções:
 
 ## Instalar {#install-v2}
 
-Para instalar o aplicativo de desktop, siga estas etapas. Desinstale qualquer aplicativo de desktop Adobe [!DNL Experience Manager] existente v1.x antes de instalar o aplicativo mais recente. Para obter mais informações, consulte acima.
+Para instalar o aplicativo de desktop, siga estas etapas. Desinstale qualquer aplicativo de desktop do Adobe [!DNL Experience Manager] v1.x existente antes de instalar o aplicativo mais recente. Para obter mais informações, consulte acima.
 
 1. Baixe o instalador mais recente da página [notas de versão](release-notes.md).
 
@@ -60,11 +60,11 @@ Para instalar o aplicativo de desktop, siga estas etapas. Desinstale qualquer ap
 
 1. Se você estiver atualizando de outra versão do aplicativo, consulte [atualizar aplicativo de desktop](#upgrade-from-previous-version).
 
-1. Pule esta etapa se estiver usando o [!DNL Experience Manager] como um [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 ou posterior, ou [!DNL Experience Manager] 6.5.0 ou posterior. Verifique se a instalação do [!DNL Experience Manager] atende aos requisitos de compatibilidade mencionados nas [notas de versão](release-notes.md). Se necessário, baixe o [pacote de compatibilidade](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) aplicável e instale-o usando o Gerenciador de Pacotes [!DNL Experience Manager] como administrador [!DNL Experience Manager]. Para instalar um pacote, consulte [Como trabalhar com pacotes](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
+1. Pule esta etapa se estiver usando o [!DNL Experience Manager] como um [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 ou posterior, ou [!DNL Experience Manager] 6.5.0 ou posterior. Verifique se a instalação do [!DNL Experience Manager] atende aos requisitos de compatibilidade mencionados nas [notas de versão](release-notes.md). Se necessário, baixe o [pacote de compatibilidade](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) aplicável e instale-o usando o Gerenciador de Pacotes [!DNL Experience Manager] como administrador [!DNL Experience Manager]. Para instalar um pacote, consulte [Como trabalhar com pacotes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
 
 1. Execute o binário do instalador e siga as instruções na tela para instalar o.
 
-1. No Windows, o instalador pode solicitar a instalação de `Visual Studio C++ Redistributable 2015`. Siga as instruções na tela para instalá-lo. Se a instalação falhar, instale-a manualmente. Baixe o instalador de [aqui](https://www.microsoft.com/en-us/download/details.aspx?id=52685) e instale os arquivos `vc_redist.x64.exe` e `vc_redist.x86.exe`. Execute novamente o instalador do aplicativo de desktop [!DNL Experience Manager].
+1. No Windows, o instalador pode solicitar a instalação de `Visual Studio C++ Redistributable 2015`. Siga as instruções na tela para instalá-lo. Se a instalação falhar, instale-a manualmente. [Baixar o instalador](https://www.microsoft.com/en-us/download/details.aspx?id=52685) e instalar os arquivos `vc_redist.x64.exe` e `vc_redist.x86.exe`. Execute novamente o instalador do aplicativo de desktop [!DNL Experience Manager].
 
 1. Reinicie o computador conforme solicitado. Inicie e configure o aplicativo de desktop.
 
@@ -82,9 +82,9 @@ Para instalar o aplicativo de desktop, siga estas etapas. Desinstale qualquer ap
    >
    >Verifique se não há espaços à esquerda ou à direita antes ou depois do endereço do servidor [!DNL Experience Manager]. Caso contrário, o aplicativo não poderá se conectar ao servidor [!DNL Experience Manager].
 
-1. [Opcional] Clique em **[!UICONTROL I want to connect a different way]** e em **[!UICONTROL Adobe login]** para fazer logon no servidor Experience Manager Assets usando o Adobe Identity Management Service (IMS). O logon IMS permite que o aplicativo de desktop execute a atualização do token de acesso automaticamente, permitindo que o usuário permaneça conectado por até 14 dias. Clique em **[!UICONTROL Direct login]** para executar o logon padrão no servidor [!DNL Experience Manager] usando as credenciais do usuário.
+1. [Opcional] Clique em **[!UICONTROL I want to connect a different way]** e em **[!UICONTROL Adobe login]** para fazer logon no servidor do Experience Manager Assets usando o Adobe Identity Management Service (IMS). O logon IMS permite que o aplicativo de desktop execute a atualização do token de acesso automaticamente, permitindo que o usuário permaneça conectado por até 14 dias. Clique em **[!UICONTROL Direct login]** para executar o logon padrão no servidor [!DNL Experience Manager] usando as credenciais do usuário.
 
-   ![Logon de Adobe](assets/adobe-login.png)
+   ![Logon do Adobe](assets/adobe-login.png)
 
 1. Após a conexão bem-sucedida, você pode visualizar a lista de pastas e ativos disponíveis na pasta raiz do DAM [!DNL Experience Manager]. Você pode navegar pelas pastas de dentro do aplicativo.
 
@@ -92,9 +92,9 @@ Para instalar o aplicativo de desktop, siga estas etapas. Desinstale qualquer ap
 
    *Figura: o aplicativo exibe o conteúdo do DAM após o logon*
 
-1. ([!DNL Experience Manager] 6.5.1 ou posterior) Se você estiver usando o aplicativo de desktop com [!DNL Experience Manager] 6.5.1 ou posterior, atualize o conector S3 ou Azure para a versão 1.10.4 ou posterior. Consulte [conector do Azure](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) ou [conector S3](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 ou posterior) Se você estiver usando o aplicativo de desktop com [!DNL Experience Manager] 6.5.1 ou posterior, atualize o conector S3 ou Azure para a versão 1.10.4 ou posterior. Consulte [conector do Azure](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) ou [conector S3](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
-   Se você for um cliente do Adobe Managed Services (AMS), entre em contato com o Suporte ao cliente do Adobe.
+   Se você for um cliente do Adobe Managed Services (AMS), entre em contato com o Suporte ao cliente da Adobe.
 
 ## Definir preferências {#set-preferences}
 
@@ -112,7 +112,7 @@ Para alterar as preferências, clique em ![Ícone de mais opções](assets/do-no
 
 * **[!UICONTROL Current cache size]**: tamanho de armazenamento dos ativos baixados localmente. As informações são exibidas somente após o download dos ativos usando o aplicativo.
 
-* **[!UICONTROL Automatically download linked assets]**: ao baixar o arquivo original, os ativos colocados em aplicativos Creative Cloud nativos com suporte são buscados automaticamente.
+* **[!UICONTROL Automatically download linked assets]**: ao baixar o arquivo original, os ativos colocados em aplicativos nativos Creative Cloud com suporte são buscados automaticamente.
 
 * **[!UICONTROL Maximum number of downloads]**: ![ícone de cuidado](assets/do-not-localize/caution-icon.png). Altere com cuidado. Ao baixar ativos pela primeira vez (por meio da opção Revelar, Abrir, Editar, Baixar ou semelhante), os ativos serão baixados somente se o lote contiver menos que esse número. O valor padrão é 50. Não altere se não tiver certeza. Aumentar o valor pode resultar em tempos de espera mais longos, enquanto reduzi-lo pode impedir que você baixe todos os ativos ou pastas necessários em uma única tentativa.
 
@@ -140,7 +140,7 @@ Se o proxy exigir autenticação, a equipe de TI poderá permitir que a URL [!DN
 
 Para desinstalar o aplicativo no Windows, siga estas etapas:
 
-1. Carregue todas as alterações no [!DNL Experience Manager] para evitar a perda de edições. Consulte [Editar ativos e carregar ativos atualizados para [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Faça logoff e [!UICONTROL Exit] o aplicativo.
+1. Carregue todas as alterações no [!DNL Experience Manager] para evitar a perda de edições. Consulte [Editar ativos e carregar ativos atualizados para [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets). Faça logoff e [!UICONTROL Exit] o aplicativo.
 
 1. Remova o aplicativo como removeria qualquer outro aplicativo do sistema operacional. Desinstale-o em Adicionar e remover programas no Windows.
 
@@ -152,7 +152,7 @@ Para desinstalar o aplicativo no Windows, siga estas etapas:
 
 Para desinstalar o aplicativo no Mac, siga estas etapas:
 
-1. Carregue todas as alterações no [!DNL Experience Manager] para evitar a perda de edições. Consulte [Editar ativos e carregar ativos atualizados para [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Faça logoff e [!UICONTROL Exit] o aplicativo.
+1. Carregue todas as alterações no [!DNL Experience Manager] para evitar a perda de edições. Consulte [Editar ativos e carregar ativos atualizados para [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets). Faça logoff e [!UICONTROL Exit] o aplicativo.
 
 1. Remova o `Adobe Experience Manager Desktop.app` de `/Applications`.
 

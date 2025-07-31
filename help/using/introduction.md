@@ -1,9 +1,9 @@
 ---
-title: Introdução ao aplicativo de desktop  [!DNL Experience Manager]
+title: 'Introdução ao aplicativo de desktop  [!DNL Experience Manager] '
 description: Saiba como usar o aplicativo de desktop [!DNL Adobe Experience Manager] para otimizar os fluxos de trabalho de gerenciamento de ativos para usuários criativos ao usar o [!DNL Adobe Experience Manager Assets] diretamente no desktop.
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
-source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
+source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 39%
@@ -12,11 +12,11 @@ ht-degree: 39%
 
 # Visão geral do aplicativo de desktop [!DNL Adobe Experience Manager] {#overview-v2}
 
-A Adobe oferece fluxos de trabalho conectados nas soluções para viabilizar a produtividade de nível superior para os usuários direcionados e profissionais criativos. O aplicativo de desktop [!DNL Adobe Experience Manager] conecta repositórios e aplicativos de desktop, incluindo o Adobe e aplicativos de terceiros, para fornecer acesso mais rápido a recursos e fluxos de trabalho simplificados. Essa economia de tempo e esforço aumenta a eficiência dos usuários que trabalham com ativos do [!DNL Adobe Experience Manager] em seus fluxos de trabalho de desktop.
+A Adobe oferece fluxos de trabalho conectados nas soluções para viabilizar a produtividade de nível superior para os usuários direcionados e profissionais criativos. O aplicativo de desktop do [!DNL Adobe Experience Manager] conecta repositórios e aplicativos de desktop, incluindo o Adobe e terceiros, para fornecer acesso mais rápido a recursos e fluxos de trabalho simplificados. Essa economia de tempo e esforço aumenta a eficiência dos usuários que trabalham com ativos do [!DNL Adobe Experience Manager] em seus fluxos de trabalho de desktop.
 
 Usando o aplicativo, os ativos do [!DNL Experience Manager Assets] são facilmente acessíveis na área de trabalho local e podem ser usados em qualquer aplicativo de área de trabalho. Você pode abrir e editar os ativos nos aplicativos de desktop de sua escolha. As edições locais são salvas como uma nova versão no [!DNL Experience Manager] somente quando você carrega as alterações, permitindo uma edição eficiente do trabalho em andamento na área de trabalho. O aplicativo oferece suporte ao carregamento de ativos e pastas aninhadas para [!DNL Experience Manager], simplificando a adição de novo conteúdo ao repositório.
 
-Essa integração permite que várias funções na organização gerenciem os ativos de forma central no [!DNL Experience Manager Assets]. Os profissionais de marketing e usuários empresariais podem garantir a conformidade com os vários padrões, incluindo identidade visual e licenciamento. Os usuários de criação com uma ferramenta dedicada, o [Adobe Asset Link](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html), podem acessar ativos no Adobe Photoshop, no Illustrator e no InDesign. Além disso, eles podem acessar ativos no desktop no Creative Cloud e em outros aplicativos nativos.
+Essa integração permite que várias funções na organização gerenciem os ativos de forma central no [!DNL Experience Manager Assets]. Os profissionais de marketing e usuários empresariais podem garantir a conformidade com os vários padrões, incluindo identidade visual e licenciamento. Os usuários do Creative com uma ferramenta dedicada, o [Adobe Asset Link](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html), podem acessar ativos no Adobe Photoshop, no Illustrator e no InDesign. Também podem acessar ativos no desktop no Creative Cloud e em outros aplicativos nativos.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ A documentação do aplicativo de desktop contém informações sobre as seguint
 | Deseja conhecer os pré-requisitos e as especificações técnicas? Deseja receber os links de download? | [Notas de versão](release-notes.md) |
 | O que não é novidade no aplicativo de desktop? Você está atualizando e deseja fazer a transição sem problemas? | [Atualizar da versão anterior](install-upgrade.md#upgrade-from-previous-version) |
 | Funcione a todo vapor. Deseja ajustar as preferências padrão? | [Instalar e configurar o aplicativo](install-upgrade.md) |
-| Aprenda a usar para navegar, detectar, editar, carregar, resolver conflitos, realizar operações em massa e assim por diante. | [Usar [!DNL Experience Manager] aplicativo de desktop](using.md) |
+| Aprenda a usar para navegar, detectar, editar, carregar, resolver conflitos, realizar operações em massa e assim por diante. | [Usar [!DNL Experience Manager] aplicativo de desktop](using-desktop-app.md) |
 | Você está tendo um problema? | [Solucionar problemas do [!DNL Experience Manager] aplicativo de desktop](troubleshoot.md) |
 
 ## Novidades no aplicativo {#whats-new-v2}
