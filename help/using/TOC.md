@@ -8,7 +8,7 @@ user-guide-description: Saiba como usar o aplicativo para desktop Experience Man
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: 3f9f5da87647b552e31fae9d19226ac6d20e336f
+source-git-commit: cde31207ddb0da1057db15f3fcbeec4dd3d0cd8c
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 48%
@@ -16,7 +16,7 @@ ht-degree: 48%
 ---
 
 
-# Guia do aplicativo de desktop do Adobe Experience Manager {#get-started}
+# Guia do aplicativo de desktop do Adobe Experience Manager {#using}
 
 + [Visão geral](introduction.md)
 + [Notas de versão](release-notes.md)
