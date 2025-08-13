@@ -4,9 +4,9 @@ description: Detalhes da versão, melhorias, novos recursos, compatibilidade e l
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
+source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2502'
 ht-degree: 9%
 
 ---
@@ -15,25 +15,55 @@ ht-degree: 9%
 
 A seguir estão informações sobre a versão mais recente do aplicativo de desktop 3.0.0. A data de lançamento é 31 de julho de 2025.
 
-A versão mais recente do aplicativo de desktop do inclui as seguintes correções de erros e aprimoramentos:
+Esta versão oferece vários aprimoramentos para coleções, uploads, entrada/saída, gerenciamento de metadados e usabilidade geral. Essas atualizações melhoram a eficiência, simplificam o manuseio de ativos e fornecem uma experiência mais intuitiva e em tempo real no aplicativo de desktop do AEM.
+
+![Interface do Usuário do Aplicativo de Desktop](assets/dekktop-app-user-interface.png)
+
+**Coleções**
+
+* Agora você pode exibir, baixar e procurar coleções.
+
+* Adição de suporte para baixar pastas disponíveis em coleções.
+
+* O recurso de sincronização automática agora permite que os ativos baixados em coleções sincronizem periodicamente o Gerenciamento de ativos da AEM com o sistema de arquivos local.
+
+* Ao atualizar um ativo que faz parte de uma coleção, o sistema o atualiza automaticamente na pasta de cache temporária e na interface do aplicativo de desktop.
+
+**Carregamentos**
 
 * Você pode fazer upload de ativos recém-criados de sua máquina local para o AEM, onde o repositório central está armazenado, e visualizá-los em seu aplicativo de desktop.
-* O recurso de atualização automática atualiza automaticamente o conteúdo em tempo real, garantindo que você sempre veja as informações mais recentes sem recarregar manualmente a página e obter a lista de ativos atualizados.
-* O recurso de fixar ou desfixar pasta permite manter pastas importantes facilmente acessíveis, fixando-as ou distorcendo a visualização ao desfixá-las quando não forem mais necessárias.
-* O recurso Renomear título permite atualizar ou modificar facilmente o título de um ativo, ajudando você a manter os nomes precisos e organizados conforme o conteúdo evolui.
-* É possível preservar o arquivo original e fazer alterações em um arquivo semelhante, duplicando arquivos em locais locais e na nuvem usando a operação duplicar arquivos.
-* O recurso de check-in e check-out permite gerenciar o acesso a arquivos bloqueando um arquivo para edição (check-out) e salvando as alterações enquanto o disponibiliza para outros (check-in).
-* Você pode visualizar, baixar e procurar coleções.
-* É possível atribuir metadados ao criar uma nova pasta.
-* O aplicativo de desktop do Experience Manager agora permite mover ativos ou pastas para um novo local, preservando os metadados, ajudando a organizar e simplificar seu sistema de arquivos.
-* Adição de suporte para baixar pastas disponíveis em coleções.
-* A opção de exportação agora permite baixar arquivos e pastas selecionados do Aplicativo de desktop para o local de destino específico em uma estrutura simples.
+
 * O aplicativo de desktop agora identifica automaticamente novos arquivos criados em uma pasta já baixada no sistema de arquivos local e os carrega no AEM. O aplicativo de desktop deve ser mantido aberto para identificar os novos arquivos no sistema de arquivos local.
-* O recurso de sincronização automática agora permite que os ativos baixados em coleções sincronizem periodicamente o Gerenciamento de ativos da AEM com o sistema de arquivos local.
-* O aplicativo de desktop do AEM agora permite visualizar as propriedades da pasta, como miniatura da pasta, tamanho, caminho, data de criação, tags, metadados e assim por diante.
-* Agora é possível acessar ativos na exibição de Cartão, em Grade ou em Árvore para obter um layout limpo, organizado e visualmente atraente dos ativos.
+
+**Check-in e check-out**
+
+* O recurso de check-in e check-out permite gerenciar o acesso a arquivos bloqueando um arquivo para edição (check-out) e salvando as alterações enquanto o disponibiliza para outros (check-in).
+
 * Capacidade de arrastar um ativo do Aplicativo de desktop para o aplicativo do Creative Cloud de destino. O Aplicativo de desktop verifica automaticamente os ativos e os baixa no sistema de arquivos local.
-* Ao atualizar um ativo que faz parte de uma coleção, o sistema o atualiza automaticamente na pasta de cache temporária e na interface do aplicativo de desktop.
+
+**Metadados**
+
+* É possível atribuir metadados ao criar uma nova pasta.
+
+* O aplicativo de desktop do Experience Manager agora permite mover ativos ou pastas para um novo local, preservando os metadados, ajudando a organizar e simplificar seu sistema de arquivos.
+
+* O aplicativo de desktop do AEM agora permite visualizar as propriedades da pasta, como miniatura da pasta, tamanho, caminho, data de criação, tags, metadados e assim por diante.
+
+**Melhorias de usabilidade**
+
+
+* O recurso de atualização automática atualiza automaticamente o conteúdo em tempo real, garantindo que você sempre veja as informações mais recentes sem recarregar manualmente a página e obter a lista de ativos atualizados.
+
+* O recurso de fixar ou desfixar pasta permite manter pastas importantes facilmente acessíveis, fixando-as ou distorcendo a visualização ao desfixá-las quando não forem mais necessárias.
+
+* O recurso Renomear título permite atualizar ou modificar facilmente o título de um ativo, ajudando você a manter os nomes precisos e organizados conforme o conteúdo evolui.
+
+* É possível preservar o arquivo original e fazer alterações em um arquivo semelhante, duplicando arquivos em locais locais e na nuvem usando a operação duplicar arquivos.
+
+* A opção de exportação agora permite baixar arquivos e pastas selecionados do Aplicativo de desktop para o local de destino específico em uma estrutura simples.
+
+* Agora é possível acessar ativos na exibição de Cartão, em Grade ou em Árvore para obter um layout limpo, organizado e visualmente atraente dos ativos.
+
 * Vários rótulos para várias opções são atualizados na interface para tornar o aplicativo mais intuitivo.
 
 As **versões [!DNL Experience Manager] com suporte** são:
