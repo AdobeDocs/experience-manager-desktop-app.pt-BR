@@ -4,7 +4,7 @@ product: adobe experience manager
 audience: end-user
 user-guide-title: Guia do aplicativo para desktop Experience Manager
 breadcrumb-title: Guia do aplicativo para desktop
-user-guide-description: Saiba como usar o aplicativo para desktop Experience Manager para conectar repositórios e aplicativos de desktop a fim de fornecer acesso mais rápido aos recursos e workflows otimizados.
+user-guide-description: Saiba como usar o aplicativo para desktop Experience Manager para conectar repositórios e aplicativos de desktop a fim de fornecer acesso mais rápido aos recursos e fluxos de trabalho otimizados.
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
