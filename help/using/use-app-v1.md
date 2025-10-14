@@ -18,7 +18,7 @@ Essa integração permite o gerenciamento centralizado de ativos e o acesso por 
 
 As principais tarefas que você executa usando o aplicativo de desktop [!DNL Experience Manager] v1 incluem:
 
-1. [Conectar-se a um servidor  [!DNL Experience Manager] ](#installandconnect)
+1. [Conectar-se a um servidor  [!DNL Experience Manager] &#x200B;](#installandconnect)
 1. [Abrir ativos diretamente no aplicativo de desktop](#openondesktop)
 1. [Editar e fazer check-out de ativos do aplicativo de desktop](#workonassets)
 1. [Fazer upload de ativos e pastas em massa](#bulkupload)
