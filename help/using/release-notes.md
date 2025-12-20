@@ -1,70 +1,35 @@
 ---
 title: Notas de versão do aplicativo de desktop [!DNL Adobe Experience Manager]
-description: Detalhes da versão, melhorias, novos recursos, compatibilidade e links de download para o aplicativo de desktop  [!DNL Adobe Experience Manager] .
+description: Detalhes da versão, melhorias, novos recursos, compatibilidade e links de download para o  [!DNL Adobe Experience Manager] Aplicativo de Desktop.
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
+source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 9%
+source-wordcount: '2662'
+ht-degree: 8%
 
 ---
 
-# Notas de versão do aplicativo de desktop [!DNL Adobe Experience Manager] {#release-notes-v2}
+# Notas de versão do [!DNL Adobe Experience Manager] Desktop App {#release-notes-v2}
 
-A seguir estão informações sobre a versão mais recente do aplicativo de desktop 3.0.0. A data de lançamento é 31 de julho de 2025.
+A data de lançamento do aplicativo de desktop versão 3.0.1 é 18 de dezembro de 2025.  A versão inclui os seguintes aprimoramentos:
 
-Esta versão oferece vários aprimoramentos para coleções, uploads, entrada/saída, gerenciamento de metadados e usabilidade geral. Essas atualizações melhoram a eficiência, simplificam o manuseio de ativos e fornecem uma experiência mais intuitiva e em tempo real no aplicativo de desktop do AEM.
+**Fluxos de trabalho mais suaves e confiáveis**
 
-![Interface do Usuário do Aplicativo de Desktop](assets/dekktop-app-user-interface.png)
+* A nomenclatura de pasta consistente foi garantida ao corrigir problemas de sincronização entre o aplicativo de desktop do AEM e o autor do AEM.
+* Habilitou fluxos de trabalho ininterruptos permitindo a funcionalidade completa do aplicativo durante operações de transferência ativas.
+* Aprimoramento da confiabilidade da página de propriedades da pasta, permitindo acesso consistente aos metadados e configurações da pasta.
 
-**Coleções**
+**Experiência do usuário mais rápida e ágil**
 
-* Agora você pode exibir, baixar e procurar coleções.
+* Aprimoramento da capacidade de resposta da interface do usuário ao substituir o bloqueio de E/S por processamento assíncrono, proporcionando uma experiência mais suave durante operações de alta carga.
+* Transferências de arquivos grandes aprimoradas ao introduzir a paginação em fluxos de upload e download, permitindo o tratamento eficiente de grandes conjuntos de dados.
 
-* Adição de suporte para baixar pastas disponíveis em coleções.
+**Maior estabilidade e confiabilidade**
 
-* O recurso de sincronização automática agora permite que os ativos baixados em coleções sincronizem periodicamente o Gerenciamento de ativos da AEM com o sistema de arquivos local.
-
-* Ao atualizar um ativo que faz parte de uma coleção, o sistema o atualiza automaticamente na pasta de cache temporária e na interface do aplicativo de desktop.
-
-**Carregamentos**
-
-* Você pode fazer upload de ativos recém-criados de sua máquina local para o AEM, onde o repositório central está armazenado, e visualizá-los em seu aplicativo de desktop.
-
-* O aplicativo de desktop agora identifica automaticamente novos arquivos criados em uma pasta já baixada no sistema de arquivos local e os carrega no AEM. O aplicativo de desktop deve ser mantido aberto para identificar os novos arquivos no sistema de arquivos local.
-
-**Check-in e check-out**
-
-* O recurso de check-in e check-out permite gerenciar o acesso a arquivos bloqueando um arquivo para edição (check-out) e salvando as alterações enquanto o disponibiliza para outros (check-in).
-
-* Capacidade de arrastar um ativo do Aplicativo de desktop para o aplicativo do Creative Cloud de destino. O Aplicativo de desktop verifica automaticamente os ativos e os baixa no sistema de arquivos local.
-
-**Metadados**
-
-* É possível atribuir metadados ao criar uma nova pasta.
-
-* O aplicativo de desktop do Experience Manager agora permite mover ativos ou pastas para um novo local, preservando os metadados, ajudando a organizar e simplificar seu sistema de arquivos.
-
-* O aplicativo de desktop do AEM agora permite visualizar as propriedades da pasta, como miniatura da pasta, tamanho, caminho, data de criação, tags, metadados e assim por diante.
-
-**Melhorias de usabilidade**
-
-
-* O recurso de atualização automática atualiza automaticamente o conteúdo em tempo real, garantindo que você sempre veja as informações mais recentes sem recarregar manualmente a página e obter a lista de ativos atualizados.
-
-* O recurso de fixar ou desfixar pasta permite manter pastas importantes facilmente acessíveis, fixando-as ou distorcendo a visualização ao desfixá-las quando não forem mais necessárias.
-
-* O recurso Renomear título permite atualizar ou modificar facilmente o título de um ativo, ajudando você a manter os nomes precisos e organizados conforme o conteúdo evolui.
-
-* É possível preservar o arquivo original e fazer alterações em um arquivo semelhante, duplicando arquivos em locais locais e na nuvem usando a operação duplicar arquivos.
-
-* A opção de exportação agora permite baixar arquivos e pastas selecionados do Aplicativo de desktop para o local de destino específico em uma estrutura simples.
-
-* Agora é possível acessar ativos na exibição de Cartão, em Grade ou em Árvore para obter um layout limpo, organizado e visualmente atraente dos ativos.
-
-* Vários rótulos para várias opções são atualizados na interface para tornar o aplicativo mais intuitivo.
+* O servidor do Autor foi resolvido e reiniciado acionado pelas interações do aplicativo de desktop, melhorando significativamente a estabilidade do sistema.
+* O aplicativo tratado falha durante o download ou upload de pastas grandes (milhares de arquivos).
 
 As **versões [!DNL Experience Manager] com suporte** são:
 
@@ -82,6 +47,10 @@ As **URLs de download** do sistema operacional suportado são:
 
 | Sistema operacional | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.1) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) |
+| macOS Apple Silicon (M1) (v3.0.1) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) |
+| Windows de 64 bits (v3.0.1) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) |
+| Windows Enterprise de 64 bits (v3.0.1) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) |
 | macOS (v3.0.0) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) |
 | macOS Apple Silicon (M1) (v3.0.0) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) |
 | Windows de 64 bits (v3.0.0) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) |
@@ -138,25 +107,77 @@ O recurso é compatível com as versões do aplicativo acima para o [!DNL Adobe 
 
 ## Novos recursos, melhorias e correções de erros {#what-is-new}
 
-Para conhecer os detalhes, consulte [Novidades na v2.0](introduction.md#whats-new-v2).
+Para conhecer os detalhes, consulte [Novidades na v3.0.1](introduction.md#whats-new-v2).
 
-**Atualizações no aplicativo v2.3.1**
+### Atualizações no aplicativo v3.0.0 {#app-version-3.0.0}
+
+Esta versão oferece vários aprimoramentos para coleções, uploads, check-in/check-out, gerenciamento de metadados e usabilidade geral. Essas atualizações melhoram a eficiência, simplificam o manuseio de ativos e fornecem uma experiência mais intuitiva e em tempo real no aplicativo de desktop do AEM.
+
+![Interface do Usuário do Aplicativo de Desktop](assets/dekktop-app-user-interface.png)
+
+**Coleções**
+
+* Agora você pode exibir, baixar e procurar coleções.
+
+* Adição de suporte para baixar pastas disponíveis em coleções.
+
+* O recurso de sincronização automática agora permite que os ativos baixados em coleções sincronizem periodicamente o Gerenciamento de ativos da AEM com o sistema de arquivos local.
+
+* Ao atualizar um ativo que faz parte de uma coleção, o sistema o atualiza automaticamente na pasta de cache temporária e na interface do aplicativo de desktop.
+
+**Carregamentos**
+
+* Você pode fazer upload de ativos recém-criados de sua máquina local para o AEM, onde o repositório central está armazenado, e visualizá-los em seu aplicativo de desktop.
+
+* O aplicativo de desktop agora identifica automaticamente novos arquivos criados em uma pasta já baixada no sistema de arquivos local e os carrega no AEM. O aplicativo de desktop deve ser mantido aberto para identificar os novos arquivos no sistema de arquivos local.
+
+**Check-in e check-out**
+
+* O recurso de check-in e check-out permite gerenciar o acesso a arquivos bloqueando um arquivo para edição (check-out) e salvando as alterações enquanto o disponibiliza para outros (check-in).
+
+* Capacidade de arrastar um ativo do Aplicativo de desktop para o aplicativo do Creative Cloud de destino. O Aplicativo de desktop verifica automaticamente os ativos e os baixa no sistema de arquivos local.
+
+**Metadados**
+
+* É possível atribuir metadados ao criar uma nova pasta.
+
+* O aplicativo de desktop do Experience Manager agora permite mover ativos ou pastas para um novo local, preservando os metadados, ajudando a organizar e simplificar seu sistema de arquivos.
+
+* O aplicativo de desktop do AEM agora permite visualizar as propriedades da pasta, como miniatura da pasta, tamanho, caminho, data de criação, tags, metadados e assim por diante.
+
+**Melhorias de usabilidade**
+
+* O recurso de atualização automática atualiza automaticamente o conteúdo em tempo real, garantindo que você sempre veja as informações mais recentes sem recarregar manualmente a página e obter a lista de ativos atualizados.
+
+* O recurso de fixar ou desfixar pasta permite manter pastas importantes facilmente acessíveis, fixando-as ou distorcendo a visualização ao desfixá-las quando não forem mais necessárias.
+
+* O recurso Renomear título permite atualizar ou modificar facilmente o título de um ativo, ajudando você a manter os nomes precisos e organizados conforme o conteúdo evolui.
+
+* É possível preservar o arquivo original e fazer alterações em um arquivo semelhante, duplicando arquivos em locais locais e na nuvem usando a operação duplicar arquivos.
+
+* A opção de exportação agora permite baixar arquivos e pastas selecionados do Aplicativo de desktop para o local de destino específico em uma estrutura simples.
+
+* Agora é possível acessar ativos na exibição de Cartão, em Grade ou em Árvore para obter um layout limpo, organizado e visualmente atraente dos ativos.
+
+* Vários rótulos para várias opções são atualizados na interface para tornar o aplicativo mais intuitivo.
+
+### Atualizações no aplicativo v2.3.1 {#app-version-2.3.1}
 
 * O novo instalador do Enterprise Windows instala o aplicativo em Arquivos de programas.
 * Suporte para **Autenticação Básica** durante logons AEM e SSO.
 * Número configurável de ativos permitidos durante a operação de upload
 
-**Atualizações no aplicativo v2.3.0**
+### Atualizações no aplicativo v2.3.0 {#app-version-2.3.0}
 
 * Adição de Suporte para logon IMS. A integração IMS permite que o aplicativo de desktop execute a atualização do token de acesso automaticamente, permitindo que o usuário permaneça conectado por até 14 dias.
 
 * Aprimoramento do suporte para proxies corporativos e filtragem da Web.
 
-**Atualizações no aplicativo v2.2.2**
+### Atualizações no aplicativo v2.2.2 {#app-version-2.2.2}
 
 * (Somente para Windows) O aplicativo de desktop exibe uma tela em branco após a instalação das versões 2.2.0 e 2.2.1.
 
-**Atualizações no aplicativo v2.2.1**
+### Atualizações no aplicativo v2.2.1 {#app-version-2.2.1}
 
 * O aplicativo de desktop exibe uma mensagem de erro de tempo limite de sessão quando você clica em **[!UICONTROL Sign In]**.
 
@@ -164,41 +185,41 @@ Para conhecer os detalhes, consulte [Novidades na v2.0](introduction.md#whats-ne
 
 * O aplicativo de desktop exibe uma mensagem de erro ao classificar ativos clicando em **[!UICONTROL Edited Locally]**.
 
-**Atualizações no aplicativo v2.2.0**
+### Atualizações no aplicativo v2.2.0 {#app-version-2.2.0}
 
 * Suporte para Apple Silicon (M1).
 
 * Capacidade de lembrar a cadeia de conexão ao fazer logon no aplicativo de desktop.
 
-**Atualizações no aplicativo v2.1.5.0**
+### Atualizações no aplicativo v2.1.5.0 {#app-version-2.1.5.0}
 
 * O aplicativo de desktop para de responder quando você carrega arquivos em uma pasta que contém caracteres chineses (ASSETS-9237).
 
-* o aplicativo de desktop substitui pontos por traços nos nomes de arquivo (ASSETS-10955).
+* O aplicativo de desktop substitui pontos por traços nos nomes de arquivo (ASSETS-10955).
 
-**Atualizações no aplicativo v2.1.4.0**
+### Atualizações no aplicativo v2.1.4.0 {#app-version-2.1.4.0}
 
 A nova versão do aplicativo oferece correções de erros.
 
-**Atualizações no aplicativo v2.1.3.4**
+### Atualizações no aplicativo v2.1.3.4 {#app-version-2.1.3.4}
 
 A nova versão do aplicativo oferece uma correção de erro.
 
-**Atualizações no aplicativo v2.1.3.3**
+### Atualizações no aplicativo v2.1.3.3 {#app-version-2.1.3.3}
 
 A nova versão do aplicativo oferece uma correção de erro.
 
-**Atualizações no aplicativo v2.1.3.2**
+### Atualizações no aplicativo v2.1.3.2 {#app-version-2.1.3.2}
 
 Esta versão do aplicativo oferece uma correção de erro.
 
-**Atualizações no aplicativo v2.1.3.1**
+### Atualizações no aplicativo v2.1.3.1 {#app-version-2.1.3.1}
 
 O erro corrigido nesta versão é:
 
 * As velocidades de upload e download de ativos melhoraram, mesmo com ativos grandes. Esta versão corrigiu um problema em que os uploads de ativos com o [!DNL desktop app] falhavam às vezes quando arquivos muito grandes eram carregados.
 
-**Atualizar no aplicativo v2.1.2.0**
+### Atualizações no aplicativo v2.1.2.0 {#app-version-2.1.2.0}
 
 * Uma nova opção para [!UICONTROL Clear Cookies] é adicionada ao menu principal do aplicativo. Isso ajuda com possíveis problemas de logon, por exemplo, ao alterar uma conexão de um servidor para outro. Consulte [limpar cookies antes de se conectar](/help/using/troubleshoot.md#cannot-login-cookies-issue).
 
@@ -206,21 +227,21 @@ O erro corrigido nesta versão é:
 
   Esse comportamento é semelhante ao comportamento padrão na versão 1 do aplicativo de desktop. Enquanto na versão atual, se a opção não estiver habilitada, os espaços em branco e os caracteres `% ; # , + ? ^ { } "` nos nomes de pastas serão substituídos por traços nos caminhos de pastas. Além disso, os caracteres em maiúsculas são convertidos em minúsculas nos caminhos de pastas. No entanto, em nomes de arquivos, os caracteres `# % { } ? &` são substituídos por traço; mas espaços em branco e caracteres maiúsculos são mantidos. Para obter mais informações, consulte [Preferências do aplicativo](/help/using/install-upgrade.md#set-preferences) e [Carregar e adicionar novos ativos](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem).
 
-**Atualizar no aplicativo v2.1.1.0**
+### Atualizações no aplicativo v2.1.1.0 {#app-version-2.1.1.0}
 
 * Uma configuração avançada permite que o aplicativo emule o comportamento do aplicativo v1.10 ao carregar pastas. Na v1.10, os nomes de nó criados no repositório respeitam os espaços e a capitalização dos nomes de pasta fornecidos pelo usuário. Na versão 2.1, o comportamento padrão é inalterado: vários espaços nos nomes de pastas são substituídos por hifens no nome do nó do repositório e os nomes dos nós são convertidos em minúsculas. Consulte [as preferências do aplicativo](/help/using/install-upgrade.md#set-preferences).
 
-**Atualizar no aplicativo v2.1.0.0**
+### Atualizações no aplicativo v2.1.0.0 {#app-version-2.1.0.0}
 
 * Para fazer upload de ativos, os usuários agora podem arrastar os arquivos ou pastas para a interface do aplicativo, diretamente do Windows Explorer ou do Mac Finder. Esse processo funciona além da opção de upload disponível no aplicativo. Consulte [carregar ativos](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
-**Atualizar no aplicativo v2.0.3**
+### Atualizações no aplicativo v2.0.3 {#app-version-2.0.3}
 
 O erro corrigido nesta versão é:
 
 * Correção do problema de logon para usuários do aplicativo no Windows que tentam acessar o repositório DAM em [!DNL Adobe Experience Manager] 6.5.5.0.
 
-**Atualizações no aplicativo v2.0.2**
+### Atualizações no aplicativo v2.0.2 {#app-version-2.0.2}
 
 As correções de erros e atualizações são:
 
@@ -234,7 +255,7 @@ As correções de erros e atualizações são:
 
 * (Windows) Correção de um problema raro de interface de aplicativo inutilizável em algumas máquinas Windows. Os usuários não podem clicar na interface do aplicativo, pois ela aparece distorcida com a área de clique dos elementos da interface &quot;deslocados&quot; ao lado. <!-- CQ-4280785 -->
 
-**Atualizações no aplicativo v2.0.1**
+### Atualizações no aplicativo v2.0.1 {#app-version-2.0.1}
 
 As correções de erros e atualizações são:
 
