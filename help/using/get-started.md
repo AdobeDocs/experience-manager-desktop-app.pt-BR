@@ -18,7 +18,7 @@ A integração permite que várias funções na organização gerenciem os ativo
 
 Quando você abrir o aplicativo depois de fazer logoff ou pela primeira vez, forneça a URL do servidor [!DNL Experience Manager] no formato `https://[aem-server-url]:[port]/`. Em seguida, selecione a opção [!UICONTROL Connect]. Forneça credenciais para conectar o aplicativo ao servidor.
 
->[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/32782?captions=por_br&quality=12&learn=on){transcript=true}
 
 As principais tarefas que você executa usando o aplicativo de desktop [!DNL Adobe Experience Manager] são:
 
