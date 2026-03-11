@@ -4,32 +4,16 @@ description: Detalhes da versão, melhorias, novos recursos, compatibilidade e l
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: ad234d05e7a011b148b74e92adcbf86de476f78d
+source-git-commit: 826e667f11792797629e0edad5db62aea6f61774
 workflow-type: tm+mt
-source-wordcount: '2662'
-ht-degree: 8%
+source-wordcount: '5259'
+ht-degree: 4%
 
 ---
 
 # Notas de versão do [!DNL Adobe Experience Manager] Desktop App {#release-notes-v2}
 
-A data de lançamento do aplicativo de desktop versão 3.0.1 é 20 de dezembro de 2025.  A versão inclui os seguintes aprimoramentos:
-
-**Fluxos de trabalho mais suaves e confiáveis**
-
-* A nomenclatura de pasta consistente foi garantida ao corrigir problemas de sincronização entre o aplicativo de desktop do AEM e o autor do AEM.
-* Habilitou fluxos de trabalho ininterruptos permitindo a funcionalidade completa do aplicativo durante operações de transferência ativas.
-* Aprimoramento da confiabilidade da página de propriedades da pasta, permitindo acesso consistente aos metadados e configurações da pasta.
-
-**Experiência do usuário mais rápida e ágil**
-
-* Aprimoramento da capacidade de resposta da interface do usuário ao substituir o bloqueio de E/S por processamento assíncrono, proporcionando uma experiência mais suave durante operações de alta carga.
-* Transferências de arquivos grandes aprimoradas ao introduzir a paginação em fluxos de upload e download, permitindo o tratamento eficiente de grandes conjuntos de dados.
-
-**Maior estabilidade e confiabilidade**
-
-* O servidor do Autor foi resolvido e reiniciado acionado pelas interações do aplicativo de desktop, melhorando significativamente a estabilidade do sistema.
-* O aplicativo tratado falha durante o download ou upload de pastas grandes (milhares de arquivos).
+Esta versão do aplicativo de desktop versão 3.0.2 inclui correções de erros para aprimorar a estabilidade e o desempenho gerais do aplicativo.
 
 As **versões [!DNL Experience Manager] com suporte** são:
 
@@ -47,6 +31,10 @@ As **URLs de download** do sistema operacional suportado são:
 
 | Sistema operacional | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.2) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) |
+| macOS Apple Silicon (M1) (v3.0.2) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) |
+| Windows de 64 bits (v3.0.2) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) |
+| Windows Enterprise de 64 bits (v3.0.2) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.2.msi) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.2.msi) |
 | macOS (v3.0.1) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) |
 | macOS Apple Silicon (M1) (v3.0.1) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) |
 | Windows de 64 bits (v3.0.1) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) | [Link de download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) |
@@ -107,7 +95,27 @@ O recurso é compatível com as versões do aplicativo acima para o [!DNL Adobe 
 
 ## Novos recursos, melhorias e correções de erros {#what-is-new}
 
-Para conhecer os detalhes, consulte [Novidades na v3.0.1](introduction.md#whats-new-v2).
+Para conhecer os detalhes, consulte [Novidades na v3.0.2](introduction.md#whats-new-v2).
+
+### Atualizações no aplicativo v3.0.1 {#app-version-3.0.1}
+
+O lançamento do aplicativo de desktop versão 3.0.1 inclui os seguintes aprimoramentos:
+
+**Fluxos de trabalho mais suaves e confiáveis**
+
+* A nomenclatura de pasta consistente foi garantida ao corrigir problemas de sincronização entre o aplicativo de desktop do AEM e o autor do AEM.
+* Habilitou fluxos de trabalho ininterruptos permitindo a funcionalidade completa do aplicativo durante operações de transferência ativas.
+* Aprimoramento da confiabilidade da página de propriedades da pasta, permitindo acesso consistente aos metadados e configurações da pasta.
+
+**Experiência do usuário mais rápida e ágil**
+
+* Aprimoramento da capacidade de resposta da interface do usuário ao substituir o bloqueio de E/S por processamento assíncrono, proporcionando uma experiência mais suave durante operações de alta carga.
+* Transferências de arquivos grandes aprimoradas ao introduzir a paginação em fluxos de upload e download, permitindo o tratamento eficiente de grandes conjuntos de dados.
+
+**Maior estabilidade e confiabilidade**
+
+* O servidor do Autor foi resolvido e reiniciado acionado pelas interações do aplicativo de desktop, melhorando significativamente a estabilidade do sistema.
+* O aplicativo tratado falha durante o download ou upload de pastas grandes (milhares de arquivos).
 
 ### Atualizações no aplicativo v3.0.0 {#app-version-3.0.0}
 
@@ -287,7 +295,7 @@ Se você estiver atualizando de um aplicativo de desktop [!DNL Experience Manage
 
 * Se o aplicativo não exibir os resultados esperados, clique no ícone atualizar na barra superior.
 
-* O compartilhamento de rede local, mostrado quando você usa a ação [!UICONTROL Reveal File], mostra somente os arquivos (e pastas) que estão disponíveis localmente. O [!UICONTROL Reveal File] e o [!UICONTROL Reveal Folder] baixam previamente os ativos para ajudar a obter os ativos certos exibidos no compartilhamento de rede local.
+* O compartilhamento de rede local, mostrado quando você usa a ação [!UICONTROL Reveal File], mostra somente arquivos (e pastas) que estão disponíveis localmente. [!UICONTROL Reveal File] O e o [!UICONTROL Reveal Folder] baixam previamente os ativos para ajudar a obter os ativos certos exibidos no compartilhamento de rede local.
 
 * O compartilhamento de rede local SMB (Mac) / WebDAV (Win) é usado quando um aplicativo do Adobe Creative Cloud lê os arquivos de ativos vinculados/colocados em um arquivo nativo do aplicativo do Creative Cloud.
 
