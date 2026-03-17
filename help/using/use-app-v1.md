@@ -3,9 +3,9 @@ title: Use o  [!DNL Experience Manager] aplicativo de desktop versão 1.10.
 description: Saiba como usar o aplicativo de desktop do Adobe Experience Manager versão 1.10 e otimizar seu trabalho com ativos no desktop.
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: '2358'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Usando o Aplicativo, os ativos no [!DNL Experience Manager] são facilmente acessíveis na área de trabalho local e podem ser usados em qualquer aplicativo de área de trabalho. O Assets pode ser facilmente revelado no Mac Finder ou no Windows Explorer, aberto em aplicativos de desktop e alterado localmente - as alterações são salvas novamente no [!DNL Experience Manager] com uma nova versão criada no repositório.
 
-Essa integração permite o gerenciamento centralizado de ativos e o acesso por meio do Creative Cloud e de outros aplicativos, garantindo a conformidade com as marcas e outros padrões.
+Essa integração permite o gerenciamento centralizado de ativos e o acesso a outros aplicativos da Creative Cloud, garantindo a conformidade com as marcas e outros padrões.
 
 As principais tarefas que você executa usando o aplicativo de desktop [!DNL Experience Manager] v1 incluem:
 
-1. [Conectar-se a um servidor  [!DNL Experience Manager] &#x200B;](#installandconnect)
+1. [Conectar-se a um servidor  [!DNL Experience Manager] ](#installandconnect)
 1. [Abrir ativos diretamente no aplicativo de desktop](#openondesktop)
 1. [Editar e fazer check-out de ativos do aplicativo de desktop](#workonassets)
 1. [Fazer upload de ativos e pastas em massa](#bulkupload)
@@ -54,7 +54,7 @@ O aplicativo de desktop [!DNL Experience Manager] usa uma conexão HTTPS para se
 
 ### Instalar o aplicativo {#installapp}
 
-Verifique se o aplicativo é compatível com a versão do servidor Experience Manager para usar o aplicativo de desktop Experience Manager. Baixe o arquivo de instalação apropriado (binário) para seu sistema operacional (Mac ou Windows) e instale o aplicativo.
+Verifique se o aplicativo é compatível com sua versão do servidor do Experience Manager para usar o aplicativo de desktop do Experience Manager. Baixe o arquivo de instalação apropriado (binário) para seu sistema operacional (Mac ou Windows) e instale o aplicativo.
 
 A configuração detalhada pode ser necessária, dependendo das preferências da rede e do sistema. Consulte [Instalar e configurar [!DNL Experience Manager] aplicativo de desktop](install-configure-app-v1.md) para obter mais detalhes.
 
@@ -122,7 +122,7 @@ Para arquivos Adobe InDesign (INDD), selecione **[!UICONTROL Open]** no menu de 
 
 >[!NOTE]
 >
->O Adobe recomenda que você vá para Opções de Exibição do Localizador no Mac e desative as opções **Mostrar informações do item**, **Mostrar visualização do item** e **Mostrar coluna de visualização** para a pasta [!DNL Assets] montada. Isso melhora o desempenho.
+>A Adobe recomenda que você vá para Opções de Exibição do Localizador no Mac e desative as opções **Mostrar informações do item**, **Mostrar pré-visualização do item** e **Mostrar coluna de pré-visualização** para a pasta [!DNL Assets] montada. Isso melhora o desempenho.
 
 ### Opções adicionais na interface [!DNL Experience Manager] {#additional-options-in-aem-assets}
 
@@ -145,7 +145,7 @@ Para localizar o ativo específico no sistema de arquivos local, clique em **Rev
 ## Entender os status do ativo {#understand-the-asset-statuses}
 
 | ![Ícone de aplicativo padrão do Windows](assets/do-not-localize/win_default.png) | O aplicativo está conectado ao servidor e todos os ativos são sincronizados. |
---- |--- |
+| --- |--- |
 | ![Ícone do Windows desabilitado](assets/do-not-localize/win_disabled.png) | O aplicativo é iniciado, mas não está conectado ao servidor. Alguns ativos podem ter a sincronização pendente. |
 | ![Ícone de sincronização de arquivos do Windows](assets/do-not-localize/win_sync.png) | O Assets está sincronizando. Os arquivos estão sendo carregados ou baixados. Você pode ver os status exatos e pausar as transferências a partir da janela Status do ativo. |
 | ![Ícone de reconexão do Windows](assets/do-not-localize/win_refresh.png) | O aplicativo está tentando se reconectar. Possivelmente, os problemas de rede estão fazendo com que ele se desconecte. |
@@ -156,7 +156,7 @@ Para localizar o ativo específico no sistema de arquivos local, clique em **Rev
 
 [!DNL Experience Manager Assets] permite que você faça check-out dos ativos para edição e check-in novamente depois que você concluir as alterações. Depois de fazer check-out de um ativo, somente você pode editar, anotar, publicar, mover ou excluir o ativo. Fazer o check-out de um ativo bloqueia o ativo e impede que outros usuários executem qualquer uma dessas operações. Para fazer check-out/check-in de ativos, é necessário ter acesso de gravação a eles.
 
-Há duas maneiras de fazer check-out dos ativos da interface da Web do [!DNL Experience Manager]. Para obter informações detalhadas sobre o primeiro método, consulte os [arquivos de check-in e check-out da interface do Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Siga estas etapas para os segundos métodos para fazer check-out e abrir o ativo quando o aplicativo de desktop [!DNL Experience Manager] estiver instalado.
+Há duas maneiras de fazer check-out dos ativos da interface da Web do [!DNL Experience Manager]. Para obter informações detalhadas sobre o primeiro método, consulte os [arquivos de check-in e check-out da interface do Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Siga estas etapas para os segundos métodos para fazer check-out e abrir o ativo quando o aplicativo de desktop [!DNL Experience Manager] estiver instalado.
 
 1. Abra a interface [!DNL Assets] e passe o mouse sobre uma pasta ou um ativo, para exibir as ações da área de trabalho como ações rápidas na exibição de Cartão.
 
@@ -242,7 +242,7 @@ Usando o aplicativo de desktop [!DNL Experience Manager], você pode carregar um
 
 1. Depois que a pasta for carregada, feche a caixa de diálogo e navegue até a interface do usuário do Assets. A pasta carregada é exibida na interface da Web.
 
-O Adobe não recomenda copiar-colar ou arrastar um número maior de arquivos ou pastas aninhadas, do sistema de arquivos local, para a área de compartilhamento de rede. O aplicativo não pode controlar o processo de carregamento devido a limitações técnicas e o desempenho é insatisfatório.
+A Adobe não recomenda copiar e colar ou arrastar um número maior de arquivos ou pastas aninhadas, do sistema de arquivos local, para a área de compartilhamento de rede. O aplicativo não pode controlar o processo de carregamento devido a limitações técnicas e o desempenho é insatisfatório.
 
 Como alternativa, selecione arquivos/pastas no Finder ou no Explorer, copie-os, navegue até a pasta de destino na área de compartilhamento de rede e escolha **Colar Assets** no menu de contexto do aplicativo de desktop [!DNL Experience Manager]. Dessa forma, o aplicativo de desktop [!DNL Experience Manager] inicia o upload dos ativos colados de forma semelhante à opção **Pasta de Carregamento**, disponível na interface da Web do [!DNL Experience Manager].
 
