@@ -13,7 +13,7 @@ Essa integração permite que várias funções na organização gerenciem os at
 
 ## Contribuir com a documentação
 
-Este projeto adotou o [Código de Conduta do Adobe Open Source](code-of-conduct.md) ou o [ Código de Conduta do .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Para obter mais informações, consulte o artigo [Contribuição](contributing.md).
+Este projeto adotou o [Código de Conduta do Adobe Open Source](code-of-conduct.md) ou o [&#x200B; Código de Conduta do .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Para obter mais informações, consulte o artigo [Contribuição](contributing.md).
 
 **Pequenas alterações**: clique em Editar, na margem direita de um artigo, para começar a fazer pequenas correções ou esclarecimentos e enviar. Como alternativa, crie um problema neste repositório que descreva as alterações. Essas pequenas contribuições são cobertas pelos termos de uso da Adobe.
 
