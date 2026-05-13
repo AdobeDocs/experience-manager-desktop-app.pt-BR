@@ -2,9 +2,23 @@
 title: Instalar e configurar o aplicativo de desktop v1.10
 description: Instale e configure o  [!DNL Experience Manager] aplicativo de desktop versão 1.10 para funcionar com  [!DNL Assets] servidores e mapeie os ativos a serem montados como uma unidade no desktop.
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
-source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
+TQID: https://experienceleague.adobe.com/q8HwCAJiC2BlVsKHHC-Pg6NrvQEuI4bfhPV6q4s9xBE
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: 928
 ht-degree: 0%
 
 ---
@@ -13,7 +27,7 @@ ht-degree: 0%
 
 Usando o aplicativo de desktop [!DNL Experience Manager], os ativos do [!DNL Experience Manager] são facilmente acessíveis no desktop local e podem ser usados em qualquer aplicativo de desktop. O Assets pode ser revelado no Mac Finder ou no Windows Explorer, editado em aplicativos de desktop, e as alterações são salvas novamente em [!DNL Experience Manager], criando uma nova versão após o carregamento.
 
-Essa integração permite que diferentes funções gerenciem ativos de forma central na organização na Assets, acessem-nos no Creative Cloud e em outros aplicativos e cumpram facilmente com vários padrões, inclusive de marca.
+Essa integração permite que diferentes funções gerenciem ativos de forma central na organização no Assets, acessem-nos no Creative Cloud e em outros aplicativos e estejam em conformidade com vários padrões, inclusive de marca.
 
 Para usar o aplicativo de desktop [!DNL Experience Manager],
 
