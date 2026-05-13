@@ -3,9 +3,13 @@ title: 'Introdução ao aplicativo de desktop [!DNL Experience Manager] '
 description: Saiba como o aplicativo de desktop  [!DNL Experience Manager]  aprimora a criação e a publicação de conteúdo com fluxos de trabalho simplificados e recursos de produtividade.
 feature: Desktop App,Asset Management
 exl-id: 6cf29b6a-74e6-4860-a25b-d3e91abbaa9d
-source-git-commit: 2bf5ee7454846c288cc1c976d8f69c6bfed8eabf
+TQID: https://experienceleague.adobe.com/ngwHq5OPXgoOFDGUhUjg3V4494eFgJNmb1oxSDy0fzI
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: 1231
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ A integração permite que várias funções na organização gerenciem os ativo
 
 Quando você abrir o aplicativo depois de fazer logoff ou pela primeira vez, forneça a URL do servidor [!DNL Experience Manager] no formato `https://[aem-server-url]:[port]/`. Em seguida, selecione a opção [!UICONTROL Connect]. Forneça credenciais para conectar o aplicativo ao servidor.
 
->[!VIDEO](https://video.tv.adobe.com/v/32782?captions=por_br&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on){transcript=true}
 
 As principais tarefas que você executa usando o aplicativo de desktop [!DNL Adobe Experience Manager] são:
 
@@ -100,7 +104,7 @@ Ao contrário, você pode abrir o ativo na interface da Web a partir do aplicati
 
 ## Próximas etapas {#next-steps}
 
-* [Assista a um vídeo para começar a usar o Adobe Experience Manager Desktop App](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Assista a um vídeo de introdução ao aplicativo de desktop do Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Forneça feedback sobre a documentação usando a [!UICONTROL Edit this page] ![edite a página](assets/do-not-localize/edit-page.png) ou [!UICONTROL Log an issue] ![crie um problema do GitHub](assets/do-not-localize/github-issue.png) disponível na barra lateral direita
 

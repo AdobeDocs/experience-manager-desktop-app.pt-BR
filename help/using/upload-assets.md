@@ -3,9 +3,12 @@ title: 'Carregar ativos usando o aplicativo de desktop  [!DNL Experience Manager
 description: Carregar ativos usando o aplicativo de desktop  [!DNL Adobe Experience Manager] .
 feature: Desktop App,Asset Management
 exl-id: f082c712-dc04-4bed-bac8-fa78f93de1c7
-source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
+TQID: https://experienceleague.adobe.com/gqoBxhsZBCqUBHFVfQVzIHfoeNeoyIEQI-IjyQscpvQ
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: 841
 ht-degree: 2%
 
 ---
@@ -25,7 +28,7 @@ Use **[!UICONTROL Toggle Check-out]** para bloquear o ativo e evitar conflitos c
 * Você começou a editar um ativo sem fazer o check-out dele primeiro (digamos apenas abrindo-o).
 * Você pretende começar a editar um ativo em breve e não deseja que outros editem.
 
-Quando terminar de fazer as edições, o aplicativo exibirá o status **[!UICONTROL Edited Locally]** dos ativos alterados. Todas as alterações salvas nos ativos são somente locais até você carregar as alterações em [!DNL Experience Manager]. Para carregar um indivíduo ou alguns ativos individualmente, clique em **[!UICONTROL Upload Changes]** nas opções de um ativo. Uma versão do ativo é criada em [!DNL Experience Manager]. Usando a interface da Web de [!DNL Assets], você pode ver o histórico de ativos na [exibição da Linha do Tempo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/using/activity-stream).
+Quando terminar de fazer as edições, o aplicativo exibirá o status **[!UICONTROL Edited Locally]** dos ativos alterados. Todas as alterações salvas nos ativos são somente locais até você carregar as alterações em [!DNL Experience Manager]. Para carregar um indivíduo ou alguns ativos individualmente, clique em **[!UICONTROL Upload Changes]** nas opções de um ativo. Uma versão do ativo é criada em [!DNL Experience Manager]. Usando a interface da Web de [!DNL Assets], você pode ver o histórico de ativos na [exibição da Linha do Tempo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream).
 
 ![Opção Carregar alterações no aplicativo](assets/upload_changes_single1_da2.png "Opção Carregar alterações no aplicativo")
 
@@ -71,11 +74,11 @@ Após o carregamento, se as alterações esperadas não forem refletidas no apli
 
 >[!NOTE]
 >
->Não use a funcionalidade de carregamento para migrar ativos em duas implantações do [!DNL Experience Manager]. Em vez disso, consulte o [guia de migração](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>Não use a funcionalidade de carregamento para migrar ativos em duas implantações do [!DNL Experience Manager]. Em vez disso, consulte o [guia de migração](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ## Próximas etapas {#next-steps}
 
-* [Assista a um vídeo de introdução ao aplicativo de desktop do Adobe Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Assista a um vídeo de introdução ao aplicativo de desktop do Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Forneça feedback sobre a documentação usando a [!UICONTROL Edit this page] ![edite a página](assets/do-not-localize/edit-page.png) ou [!UICONTROL Log an issue] ![crie um problema do GitHub](assets/do-not-localize/github-issue.png) disponível na barra lateral direita
 

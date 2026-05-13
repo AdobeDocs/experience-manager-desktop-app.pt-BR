@@ -2,9 +2,15 @@
 title: Práticas recomendadas para o aplicativo de desktop  [!DNL Adobe Experience Manager] e solução de problemas para ele
 description: Siga as práticas recomendadas e solucione problemas para resolver problemas ocasionais relacionados à instalação, atualização, configuração, etc.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: a8cb0aaab08f24c83a9b5640a96a5ae8895685d2
+TQID: https://experienceleague.adobe.com/-dzlMXZ6SeCoc-QvFbEbWr1YNbK3A4nNIYI6xBudotI
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: 2338
 ht-degree: 0%
 
 ---
@@ -21,7 +27,7 @@ Siga as práticas recomendadas a seguir para evitar alguns problemas comuns e so
 
 * **Entenda como o aplicativo de desktop funciona**: Antes de começar a usar o aplicativo, passe alguns minutos sabendo como ele funciona. Saiba mais sobre a vinculação entre a interface da Web do [!DNL Experience Manager] e a área de trabalho, o mapeamento do repositório, o armazenamento em cache de ativos, o salvamento local e o carregamento em segundo plano. Consulte [como funciona](release-notes.md#how-app-works).
 
-* **Evite caracteres não suportados nos nomes de pastas**: não use espaços em branco e caracteres inválidos ao criar ou carregar pastas. Veja uma lista de caracteres em [Criar pastas em [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Caracteres não suportados no nome da pasta podem afetar alguns casos de uso de [!DNL Experience Manager].
+* **Evite caracteres não suportados nos nomes de pastas**: não use espaços em branco e caracteres inválidos ao criar ou carregar pastas. Veja uma lista de caracteres em [Criar pastas em [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Caracteres não suportados no nome da pasta podem afetar alguns casos de uso de [!DNL Experience Manager].
 
 * **Práticas recomendadas para evitar conflitos**: para evitar possíveis conflitos ao colaborar em vários ativos, acesse [evitar conflitos de edição](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts).
 
@@ -301,8 +307,8 @@ Em ambos os métodos, o aplicativo é iniciado na pasta raiz do DAM.
 
 Ao navegar pelos ativos na interface do usuário do [!DNL Experience Manager], os ativos expirados não são exibidos. Os administradores podem definir configurações para impedir a exibição, pesquisa e busca de ativos expirados ao navegar pelo aplicativo de desktop e pelo Asset Link. Isso garante que os ativos expirados não estejam acessíveis durante essas operações. A configuração funciona para todos os usuários, independentemente do privilégio de administrador.
 
-* [Configuração no Experience Manager 6.5 para ocultar ativos expirados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
-* [Configuração no Experience Manager as a Cloud Service para ocultar ativos expirados](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
+* [Configuração no Experience Manager 6.5 para ocultar ativos expirados](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
+* [Configuração no Experience Manager as a Cloud Service para ocultar ativos expirados](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}

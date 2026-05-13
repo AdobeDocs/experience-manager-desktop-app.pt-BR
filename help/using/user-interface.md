@@ -2,13 +2,17 @@
 title: 'Aplicativo de desktop da interface de usuário  [!DNL Experience Manager] '
 description: Aplicativo de desktop da Interface do Usuário  [!DNL Adobe Experience Manager] .
 feature: Desktop App,Asset Management
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
+exl-id: bbf47ffe-9a0f-4cf2-9bda-d5e62651c00b
+TQID: https://experienceleague.adobe.com/AEbEbJbBQI6-HuI7aAf-348pf-qjK1fZfoapY7PYveo
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 7%
+source-wordcount: 499
+ht-degree: 8%
 
 ---
-
 
 # Interface do Usuário do Aplicativo de Desktop [!DNL Adobe Experience Manager] {#user-interface-desktop-app}
 
@@ -125,7 +129,7 @@ Navegue até uma pasta e clique no ícone ![Mais ações](assets/do-not-localize
 
 ## Próximas etapas {#next-steps}
 
-* [Assista a um vídeo para começar a usar o Adobe Experience Manager Desktop App](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Assista a um vídeo de introdução ao aplicativo de desktop do Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Forneça feedback sobre a documentação usando a [!UICONTROL Edit this page] ![edite a página](assets/do-not-localize/edit-page.png) ou [!UICONTROL Log an issue] ![crie um problema do GitHub](assets/do-not-localize/github-issue.png) disponível na barra lateral direita
 
@@ -136,4 +140,3 @@ Navegue até uma pasta e clique no ícone ![Mais ações](assets/do-not-localize
 >* [Gerenciando o Assets no Aplicativo de Desktop](/help/using/assets-management-tasks.md)
 >* [Baixar ativos](/help/using/download-assets.md)
 >* [Carregar ativos](/help/using/upload-assets.md)
-

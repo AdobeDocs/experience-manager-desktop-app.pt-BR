@@ -4,9 +4,13 @@ description: Use o aplicativo de desktop  [!DNL Adobe Experience Manager]  para 
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
+TQID: https://experienceleague.adobe.com/2v0mdTrS1ZgHkm0ykjYYQDQjvW0DjsVs2uLyCg8p54M
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '4093'
+source-wordcount: 4093
 ht-degree: 0%
 
 ---
@@ -135,7 +139,7 @@ Em alguns casos, ao colocar um ativo em um documento nativo, você acessa um arq
 
 ![Ação Revelar arquivo para um ativo](assets/revealfile_action_da2.png "Ação Revelar arquivo para um ativo")
 
-Clique em **[!UICONTROL Reveal File]** ou **[!UICONTROL Reveal Folder]** em uma pasta para abrir o Windows Explorer ou o Mac Finder com o arquivo ou pasta pré-selecionado no computador local. Como exemplo, a opção é útil para colocar os arquivos [!DNL Experience Manager] nos aplicativos nativos que oferecem suporte à colocação ou vinculação de arquivos locais. Para ver como colocar arquivos no Adobe InDesign, consulte [Inserção de gráficos](https://helpx.adobe.com/br/indesign/using/placing-graphics.html).
+Clique em **[!UICONTROL Reveal File]** ou **[!UICONTROL Reveal Folder]** em uma pasta para abrir o Windows Explorer ou o Mac Finder com o arquivo ou pasta pré-selecionado no computador local. Como exemplo, a opção é útil para colocar os arquivos [!DNL Experience Manager] nos aplicativos nativos que oferecem suporte à colocação ou vinculação de arquivos locais. Para ver como colocar arquivos no Adobe InDesign, consulte [Inserção de gráficos](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 
 A ação **[!UICONTROL Reveal File]** abre um compartilhamento de rede local. Ele exibe somente os ativos que estão disponíveis localmente. Ou seja, exibe ativos que foram revelados, baixados ou abertos/editados usando o aplicativo. O compartilhamento de rede local não carrega nenhuma alteração em [!DNL Experience Manager]. Para carregar as alterações, use explicitamente as ações **[!UICONTROL Upload Changes]** ou **[!UICONTROL Upload]** no aplicativo.
 
@@ -158,7 +162,7 @@ Use **[!UICONTROL Toggle Check-out]** para bloquear o ativo e evitar conflitos c
 * Você começou a editar um ativo sem fazer o check-out dele primeiro (digamos apenas abrindo-o).
 * Você pretende começar a editar um ativo em breve e não deseja que outros editem.
 
-Quando terminar de fazer as edições, o aplicativo exibirá o status **[!UICONTROL Edited Locally]** dos ativos alterados. Todas as alterações salvas nos ativos são somente locais até você carregar as alterações em [!DNL Experience Manager]. Para carregar um indivíduo ou alguns ativos individualmente, clique em **[!UICONTROL Upload Changes]** nas opções de um ativo. Uma versão do ativo é criada em [!DNL Experience Manager]. Usando a interface da Web de [!DNL Assets], você pode ver o histórico de ativos na [exibição da Linha do Tempo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/using/activity-stream).
+Quando terminar de fazer as edições, o aplicativo exibirá o status **[!UICONTROL Edited Locally]** dos ativos alterados. Todas as alterações salvas nos ativos são somente locais até você carregar as alterações em [!DNL Experience Manager]. Para carregar um indivíduo ou alguns ativos individualmente, clique em **[!UICONTROL Upload Changes]** nas opções de um ativo. Uma versão do ativo é criada em [!DNL Experience Manager]. Usando a interface da Web de [!DNL Assets], você pode ver o histórico de ativos na [exibição da Linha do Tempo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream).
 
 ![Opção Carregar alterações no aplicativo](assets/upload_changes_single1_da2.png "Opção Carregar alterações no aplicativo")
 
@@ -302,7 +306,7 @@ Após o carregamento, se as alterações esperadas não forem refletidas no apli
 
 >[!NOTE]
 >
->Não use a funcionalidade de carregamento para migrar ativos em duas implantações do [!DNL Experience Manager]. Em vez disso, consulte o [guia de migração](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>Não use a funcionalidade de carregamento para migrar ativos em duas implantações do [!DNL Experience Manager]. Em vez disso, consulte o [guia de migração](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ### Lista de ativos transferidos {#list-of-transferred-assets}
 
@@ -371,7 +375,7 @@ Para saber as limitações desse fluxo de trabalho, consulte os [requisitos do s
 
 Para experimentar esse fluxo de trabalho com um ativo de imagem e o InDesign, siga estas etapas:
 
-1. Mantenha-se à mão com um arquivo INDD com ativos colocados em [!DNL Experience Manager]. Para saber como criar esse arquivo INDD, consulte [Inserção de Gráficos](https://helpx.adobe.com/br/indesign/using/placing-graphics.html).
+1. Mantenha-se à mão com um arquivo INDD com ativos colocados em [!DNL Experience Manager]. Para saber como criar esse arquivo INDD, consulte [Inserção de Gráficos](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 1. No aplicativo de desktop, **[!UICONTROL Edit]** o arquivo INDD com os ativos colocados em [!DNL Experience Manager].
 1. O aplicativo baixa o arquivo InDesign e os ativos vinculados. Quando o InDesign abre o documento, os links são resolvidos, os ativos são baixados e os ativos são exibidos no documento do InDesign.
 1. Para inserir um novo gráfico no arquivo InDesign, use a ação **[!UICONTROL Reveal File]** no ativo. A ação baixa o ativo localmente e abre o local de compartilhamento de rede local no Windows Explorer ou no Mac Finder.

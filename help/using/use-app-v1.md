@@ -3,9 +3,14 @@ title: Use o  [!DNL Experience Manager] aplicativo de desktop versão 1.10.
 description: Saiba como usar o aplicativo de desktop do Adobe Experience Manager versão 1.10 e otimizar seu trabalho com ativos no desktop.
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
+TQID: https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: 2358
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ Essa integração permite o gerenciamento centralizado de ativos e o acesso a ou
 
 As principais tarefas que você executa usando o aplicativo de desktop [!DNL Experience Manager] v1 incluem:
 
-1. [Conectar-se a um servidor  [!DNL Experience Manager] &#x200B;](#installandconnect)
+1. [Conectar-se a um servidor  [!DNL Experience Manager] ](#installandconnect)
 1. [Abrir ativos diretamente no aplicativo de desktop](#openondesktop)
 1. [Editar e fazer check-out de ativos do aplicativo de desktop](#workonassets)
 1. [Fazer upload de ativos e pastas em massa](#bulkupload)
@@ -156,7 +161,7 @@ Para localizar o ativo específico no sistema de arquivos local, clique em **Rev
 
 [!DNL Experience Manager Assets] permite que você faça check-out dos ativos para edição e check-in novamente depois que você concluir as alterações. Depois de fazer check-out de um ativo, somente você pode editar, anotar, publicar, mover ou excluir o ativo. Fazer o check-out de um ativo bloqueia o ativo e impede que outros usuários executem qualquer uma dessas operações. Para fazer check-out/check-in de ativos, é necessário ter acesso de gravação a eles.
 
-Há duas maneiras de fazer check-out dos ativos da interface da Web do [!DNL Experience Manager]. Para obter informações detalhadas sobre o primeiro método, consulte os [arquivos de check-in e check-out da interface do Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Siga estas etapas para os segundos métodos para fazer check-out e abrir o ativo quando o aplicativo de desktop [!DNL Experience Manager] estiver instalado.
+Há duas maneiras de fazer check-out dos ativos da interface da Web do [!DNL Experience Manager]. Para obter informações detalhadas sobre o primeiro método, consulte os [arquivos de check-in e check-out da interface do Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Siga estas etapas para os segundos métodos para fazer check-out e abrir o ativo quando o aplicativo de desktop [!DNL Experience Manager] estiver instalado.
 
 1. Abra a interface [!DNL Assets] e passe o mouse sobre uma pasta ou um ativo, para exibir as ações da área de trabalho como ações rápidas na exibição de Cartão.
 
