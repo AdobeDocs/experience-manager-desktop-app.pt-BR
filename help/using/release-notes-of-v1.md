@@ -435,7 +435,7 @@ Como a pasta `/Volumes` não requer mais direitos administrativos, esta alteraç
 
 ## Recursos úteis {#helpful-resources}
 
-* [Documentação do AEM](https://experienceleague.adobe.com/en/docs)
+* [Documentação do AEM](https://experienceleague.adobe.com/pt-br/docs)
 * [Usar o aplicativo de desktop do AEM v1.x](use-app-v1.md)
 * [Práticas recomendadas do aplicativo de desktop do AEM v1.x](best-practices-for-v1.md)
 
