@@ -171,7 +171,7 @@ Para saber as limitações desse fluxo de trabalho, consulte os [requisitos do s
 
 Para experimentar esse fluxo de trabalho com um ativo de imagem e o InDesign, siga estas etapas:
 
-1. Mantenha-se à mão com um arquivo INDD com ativos colocados em [!DNL Experience Manager]. Para saber como criar esse arquivo INDD, consulte [Inserção de Gráficos](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+1. Mantenha-se à mão com um arquivo INDD com ativos colocados em [!DNL Experience Manager]. Para saber como criar esse arquivo INDD, consulte [Inserção de Gráficos](https://helpx.adobe.com/br/indesign/using/placing-graphics.html).
 1. No aplicativo de desktop, **[!UICONTROL Edit]** o arquivo INDD com os ativos colocados em [!DNL Experience Manager].
 1. O aplicativo baixa o arquivo InDesign e os ativos vinculados. Quando o InDesign abre o documento, os links são resolvidos, os ativos são baixados e os ativos são exibidos no documento do InDesign.
 1. Para inserir um novo gráfico no arquivo InDesign, use a ação **[!UICONTROL Reveal File]** no ativo. A ação baixa o ativo localmente e abre o local de compartilhamento de rede local no Windows Explorer ou no Mac Finder.
