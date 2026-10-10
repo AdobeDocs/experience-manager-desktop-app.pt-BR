@@ -1,24 +1,35 @@
 ---
-title: 'Usar o aplicativo de desktop  [!DNL Experience Manager] '
-description: Use o aplicativo de desktop  [!DNL Adobe Experience Manager]  para trabalhar com  [!DNL Adobe Experience Manager] ativos do DAM diretamente da área de trabalho Win ou Mac e usar em outros aplicativos.
+title: Usar o aplicativo de desktop [!DNL Experience Manager]
+description: Use o aplicativo de desktop [!DNL Adobe Experience Manager] para trabalhar com [!DNL Adobe Experience Manager] ativos DAM diretamente da sua área de trabalho Win ou Mac e usar em outros aplicativos.
 feature: Desktop App,Asset Management
 exl-id: c8f57bdc-1465-401f-88b1-9107fcacceb5
-TQID: https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE
+TQID: 'https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: '1441'
 ht-degree: 1%
-
 ---
-
 # Tarefas de gerenciamento do Assets em [!DNL AEM Desktop App] {#assets-management-tasks}
 
 O gerenciamento de ativos envolve a organização, manutenção e otimização de ativos digitais para simplificar fluxos de trabalho. Inclui tarefas como duplicar e renomear arquivos, fixar ou desfixar pastas para acesso rápido e visualizar ativos em vários layouts. Isso ajuda a melhorar a eficiência, simplificar o rastreamento de ativos e garantir uma fácil recuperação e organização de ativos digitais em todas as plataformas.
@@ -169,7 +180,7 @@ Para experimentar esse fluxo de trabalho com um ativo de imagem e o InDesign, si
 
 ## Próximas etapas {#next-steps}
 
-* [Assista a um vídeo de introdução ao aplicativo de desktop do Adobe Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Assista a um vídeo de introdução ao aplicativo de desktop do Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Forneça feedback sobre a documentação usando a [!UICONTROL Edit this page] ![edite a página](assets/do-not-localize/edit-page.png) ou [!UICONTROL Log an issue] ![crie um problema do GitHub](assets/do-not-localize/github-issue.png) disponível na barra lateral direita
 

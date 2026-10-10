@@ -1,26 +1,34 @@
 ---
 title: Instalar e configurar o aplicativo de desktop
-description: Instale e configure o aplicativo de desktop  [!DNL Adobe Experience Manager]  para funcionar com  [!DNL Adobe Experience Manager Assets]  servidores e baixe os ativos no sistema de arquivos local.
+description: Instale e configure o aplicativo de desktop do [!DNL Adobe Experience Manager] para funcionar com servidores do [!DNL Adobe Experience Manager Assets] e baixe os ativos no sistema de arquivos local.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-TQID: https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ
+TQID: 'https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
 subfeature_v2:
   - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
+  - id: c21ccc2b-e0c8-4853-bf41-f12259ed93f8
+    internal-label: Release information
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 1530
-ht-degree: 0%
-
+source-wordcount: '1546'
+ht-degree: 1%
 ---
-
 # Instalar o aplicativo de desktop [!DNL Adobe Experience Manager] {#install-app-v2}
 
 Usando o aplicativo de desktop [!DNL Adobe Experience Manager], os ativos do [!DNL Experience Manager] ficam facilmente disponíveis no desktop local e podem ser usados em qualquer aplicativo de desktop nativo. O Assets pode ser visualizado e aberto em aplicativos de desktop. Eles podem ser revelados no Finder ou no Explorer para uso em documentos e editados localmente. As alterações são salvas novamente em [!DNL Experience Manager], criando uma nova versão após o upload.
